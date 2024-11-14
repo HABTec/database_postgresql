@@ -40,8 +40,18 @@ cd postgres-json-schema
 # Build the extension
 make && make install
 
-# Create the extension directory if it doesn't exist
-mkdir -p '/usr/local/share/postgresql/extension'
 
-# Set appropriate permissions for the control file
-chmod 644 /usr/local/share/postgresql/extension/postgres-json-schema.control
+if [[ "$OS" == *"Alpine"* ]]; then
+    # Create the extension directory if it doesn't exist
+    mkdir -p '/usr/local/share/postgresql/extension'
+    # Set appropriate permissions for the control file
+    chmod 644 /usr/local/share/postgresql/extension/postgres-json-schema.control
+elif [[ "$OS" == *"Ubuntu"* ]]; then
+    # Create the extension directory if it doesn't exist
+    mkdir -p '/usr/share/postgresql/extension'
+    # Set appropriate permissions for the control file
+    chmod 644 /usr/share/postgresql/extension/postgres-json-schema.control
+else
+    echo "Unsupported operating system: $OS"
+    exit 1
+fi
