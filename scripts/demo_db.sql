@@ -1116,61 +1116,5219 @@ INSERT INTO "tblPLServices" ("PLServiceID", "PLServName", "DatePL", "LocationId"
 
 
 -- tblLocations
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('1', 1, N'R1', N'Ultha', NULL, N'R', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, NULL, NULL, NULL, NULL, N'75250515-40d7-4c77-bafe-a2c65ffc5a72');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('17', 17, N'R1D1', N'Rapta', 1, N'D', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, NULL, NULL, NULL, NULL, N'5345ef14-12ab-4e98-a07c-1e08d7105df4');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('18', 18, N'R2', N'Tahida', NULL, N'R', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, NULL, NULL, NULL, NULL, N'68753566-9d2e-4cec-936e-4c6bf1968c0d');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('19', 19, N'R2D1', N'Rajo', 18, N'D', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, NULL, NULL, NULL, NULL, N'2ee8ea9c-aef7-400b-9b36-f391f956f73e');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('20', 20, N'R2D2', N'Vida', 18, N'D', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, NULL, NULL, NULL, NULL, N'176d0c41-13dc-4faf-9c1e-95109f086059');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('21', 21, N'R2D1M1', N'Jaber', 19, N'W', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, NULL, NULL, NULL, NULL, N'bf590058-be5c-494e-9e05-c7f2695c645e');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('22', 22, N'R2D1M1V1', N'Utha', 21, N'V', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, NULL, NULL, NULL, NULL, N'b2e5b0c1-3d57-408c-b7de-11511ce1cbcf');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('23', 23, N'M0001', N'Dis2Mun1', 19, N'W', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 21, 1, NULL, NULL, NULL, NULL, N'1fc99211-33ad-4cd0-bb39-fcb47c908bee');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('24', 24, N'M0001', N'Dis1Mun1', 19, N'W', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 21, 2, NULL, NULL, NULL, NULL, N'4c093da2-8164-40f4-b111-9b077bed52ee');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('25', 25, N'R0002', N'Region 1', NULL, N'R', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 18, 1, NULL, NULL, NULL, NULL, N'c6a41601-8ce8-492a-9bfe-894b0acb62a2');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('26', 26, N'D1', N'Reg1Dis1', 18, N'D', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 19, 1, NULL, NULL, NULL, NULL, N'da688b32-8c8b-4d51-858e-fc99f7278781');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('27', 27, N'D0002', N'Reg1Dis2', 18, N'D', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 20, 1, NULL, NULL, NULL, NULL, N'c05450e9-0f73-4dff-b6ee-bb7cd85b2311');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('28', 28, N'M0001', N'Reg1Dis1Mun1', 19, N'W', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 21, 2, NULL, NULL, NULL, NULL, N'133b7da9-9c78-422f-8e62-3d90f0aae410');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('29', 29, N'V0001', N'Mun1Vil1', 21, N'V', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 22, 1, NULL, NULL, NULL, NULL, N'fae1121c-42bd-4e1e-8672-db268eac95e0');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('30', 30, N'R1D01', N'Dummy', 1, N'D', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 17, 1, NULL, NULL, NULL, NULL, N'58b6e957-3e63-4cba-af08-0fc3ca3caf6e');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('31', 31, N'R0001', N'Region', NULL, N'R', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 1, 1, NULL, NULL, NULL, NULL, N'a9d08182-a1e2-46a9-b480-708218a0bf19');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('32', 32, N'R2D01', N'Rajo', 18, N'D', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 19, 2, NULL, NULL, NULL, NULL, N'09bcce9a-6ea7-46c4-ace9-e178ba5de174');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('33', 33, N'R2D02', N'Vida', 18, N'D', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 20, 2, NULL, NULL, NULL, NULL, N'3f356885-d659-4959-8bc5-61c66e886de7');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('34', 34, N'R1D1M1', N'Achi', 17, N'W', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, NULL, NULL, NULL, NULL, N'e50da11b-3e50-483c-846b-0991c13c0935');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('35', 35, N'R1D1M1V1', N'Rachla', 34, N'V', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, NULL, NULL, NULL, NULL, N'8ed4eb0d-61ae-4022-8b4c-3076a619f957');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('36', 36, N'R1D1', N'Rapta', 1, N'D', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 17, 2, NULL, NULL, NULL, NULL, N'35043da3-1e04-46f9-a67e-00b9973b588f');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('37', 37, N'R1', N'Ultha', NULL, N'R', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 1, 2, NULL, NULL, NULL, NULL, N'40c4010d-8c9d-4be3-8653-e647b21b19a9');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('38', 38, N'R2', N'Tahida', NULL, N'R', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 18, 2, NULL, NULL, NULL, NULL, N'3f160b77-c701-4c4f-bf88-3486350a9e1b');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('39', 39, N'R2D1', N'Rajo', 18, N'D', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 19, 2, NULL, NULL, NULL, NULL, N'4417bc07-09c0-4b78-bde9-1d591ca0d4ac');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('40', 40, N'R2D2', N'Vida', 18, N'D', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 20, 2, NULL, NULL, NULL, NULL, N'48eab692-ede2-43b6-b084-b69cbfbf03fe');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('41', 41, N'R2DM1', N'Jaber', 19, N'W', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 21, 2, NULL, NULL, NULL, NULL, N'd298b5e6-b94f-4a8f-ac30-88f24073c72d');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('42', 42, N'R2D1M1', N'Jaber', 19, N'W', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 21, 2, NULL, NULL, NULL, NULL, N'eca492db-0e55-4fc8-a766-3a6c89aa2da8');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('43', 43, N'R2D1M1V1', N'Utha', 21, N'V', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 22, 2, NULL, NULL, NULL, NULL, N'e9252586-acea-4644-a0b3-f3e8ade37c53');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('44', 44, N'R2D2M1', N'Majhi', 20, N'W', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, NULL, NULL, NULL, NULL, N'225789ce-4d14-4098-8ae2-3c90e96fae8f');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('45', 45, N'R2D2M1V1', N'Radho', 44, N'V', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, NULL, NULL, NULL, NULL, N'9ea9f849-2c7c-4454-810d-cf60bde6bdc7');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('46', 46, N'R1D1M2', N'Jamu', 17, N'W', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, NULL, NULL, NULL, NULL, N'820e1a1f-4195-445b-a14c-4f762fad6780');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('47', 47, N'R1D1M3', N'Adhi', 17, N'W', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, NULL, NULL, NULL, NULL, N'522c4c5e-10f1-4f6a-98ef-1ae75a259eb5');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('48', 48, N'R1D1M4', N'Jobber', 17, N'W', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, NULL, NULL, NULL, NULL, N'2641ec90-7879-469e-9d8b-f180c720a079');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('49', 49, N'R1D1M5', N'Radler', 17, N'W', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, NULL, NULL, NULL, NULL, N'6c3b52cb-7926-4345-8048-77ac99ae80c1');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('50', 50, N'R1D1M1V2', N'Darbu', 34, N'V', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, NULL, NULL, NULL, NULL, N'108a16ea-5d7d-4534-a7e5-ab82c474fa7f');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('51', 51, N'R1D1M1V2', N'Darbu', 34, N'V', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 50, 2, NULL, NULL, NULL, NULL, N'1651342e-c8c6-4fbc-b821-b7e04a372a51');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('52', 52, N'R1D1M1V1', N'Rachla', 34, N'V', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 35, 2, NULL, NULL, NULL, NULL, N'4842af48-fa6a-46fa-b5bb-08001bb58f5f');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('53', 53, N'R1D1M1V3', N'Agdo', 34, N'V', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, NULL, NULL, NULL, NULL, N'eba563de-13cb-4cea-9bdd-ecab9a4344c5');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('54', 54, N'R1D1', N'Rapta', 1, N'D', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 17, 2, NULL, NULL, NULL, NULL, N'7b52d026-c455-4ab4-833a-45497d790136');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('55', 55, N'R1D2', N'Jambero', 1, N'D', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, NULL, NULL, NULL, NULL, N'6ca4b45b-ac17-4ff4-954c-dc1294bc66d1');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('56', 56, N'R1D3', N'Uptol', 1, N'D', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, NULL, NULL, NULL, NULL, N'e04c7312-46b0-4526-94d5-1717e4ec978f');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('57', 57, N'R1D2M1', N'Actoloby', 55, N'W', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, NULL, NULL, NULL, NULL, N'4cf9a26d-6cb9-48cc-b42b-55ef61a9d0f2');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('58', 58, N'R1D2M2', N'Remorlogy', 55, N'W', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, NULL, NULL, NULL, NULL, N'cac524c0-1bac-4c96-9376-9d0ee35eb0aa');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('59', 59, N'R1D2M1V1', N'Holobo', 57, N'V', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, NULL, NULL, NULL, NULL, N'ca5ec00f-eaa3-4af8-ac11-7bc5abb3341b');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('60', 60, N'R1D2M1V2', N'Octo', 57, N'V', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, NULL, NULL, NULL, NULL, N'd7c17b9f-c508-4b92-b308-4c3727a5ada0');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('61', 61, N'R1D2M1V3', N'Raberjab', 57, N'V', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, NULL, NULL, NULL, NULL, N'd862b77c-0e83-484b-b337-3c7adb06c034');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('62', 62, N'R1D2M2V1', N'Agilo', 58, N'V', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, NULL, NULL, NULL, NULL, N'b29ccc93-779d-459c-942c-df0b98b22ebb');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('63', 63, N'R1D1M3V1', N'Rathula', 47, N'V', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, NULL, NULL, NULL, NULL, N'f28d1e17-92ea-4db4-b26b-88ca429731b5');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('64', 64, N'R1D1M2V1', N'Jamula', 46, N'V', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, NULL, NULL, NULL, NULL, N'40485985-e4ab-43f9-9700-bf80e342a1ee');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('65', 65, N'R1D1M4V1', N'Jobla', 48, N'V', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, NULL, NULL, NULL, NULL, N'712451a5-6074-441c-9a57-5229d33a1a6c');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('66', 66, N'R1D1M5V1', N'Rolo', 49, N'V', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, NULL, NULL, NULL, NULL, N'e4a522fc-fa81-4954-9f11-1fee3853dbc0');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('67', 67, N'R1D3M1', N'Uminal', 56, N'W', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, NULL, NULL, NULL, NULL, N'7e89aae5-3627-49e9-aa94-bf387c510939');
-INSERT INTO "tblLocations" ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID") VALUES ('68', 68, N'R1D3M1V1', N'Uminalum', 67, N'V', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, NULL, NULL, NULL, NULL, N'f30342eb-94bf-4155-92d2-77eaf6559cd6');
+INSERT INTO "tblLocations"("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('1', 1, 'AA', 'Addis Ababa', NULL, 'R', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('2', 2, 'AA_AK', 'Addis Ketema', 1, 'D', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('3', 3, 'AA_AK_01', 'Woreda 1', 2, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('4', 4, 'AA_AK_01', 'Ketena 01', 3, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('5', 5, 'AA_AK_01', 'Ketena 02', 3, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('6', 6, 'AA_AK_01', 'Ketena 03', 3, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('7', 7, 'AA_AK_01', 'Ketena 04', 3, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('8', 8, 'AA_AK_01', 'Ketena 05', 3, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('9', 9, 'AA_AK_02', 'Woreda 2', 2, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('10', 10, 'AA_AK_02', 'Ketena 01', 9, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('11', 11, 'AA_AK_02', 'Ketena 02', 9, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('12', 12, 'AA_AK_02', 'Ketena 03', 9, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('13', 13, 'AA_AK_02', 'Ketena 04', 9, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('14', 14, 'AA_AK_02', 'Ketena 05', 9, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('15', 15, 'AA_AK_03', 'Woreda 3', 2, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('16', 16, 'AA_AK_03', 'Ketena 01', 15, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('17', 17, 'AA_AK_03', 'Ketena 02', 15, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('18', 18, 'AA_AK_03', 'Ketena 03', 15, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('19', 19, 'AA_AK_03', 'Ketena 04', 15, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('20', 20, 'AA_AK_03', 'Ketena 05', 15, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('21', 21, 'AA_AK_04', 'Woreda 4', 2, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('22', 22, 'AA_AK_04', 'Ketena 01', 21, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('23', 23, 'AA_AK_04', 'Ketena 02', 21, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('24', 24, 'AA_AK_04', 'Ketena 03', 21, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('25', 25, 'AA_AK_04', 'Ketena 04', 21, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('26', 26, 'AA_AK_04', 'Ketena 05', 21, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('27', 27, 'AA_AK_05', 'Woreda 5', 2, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('28', 28, 'AA_AK_05', 'Ketena 01', 27, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('29', 29, 'AA_AK_05', 'Ketena 02', 27, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('30', 30, 'AA_AK_05', 'Ketena 03', 27, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('31', 31, 'AA_AK_05', 'Ketena 04', 27, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('32', 32, 'AA_AK_05', 'Ketena 05', 27, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('33', 33, 'AA_AK_06', 'Woreda 6', 2, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('34', 34, 'AA_AK_06', 'Ketena 01', 33, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('35', 35, 'AA_AK_06', 'Ketena 02', 33, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('36', 36, 'AA_AK_06', 'Ketena 03', 33, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('37', 37, 'AA_AK_06', 'Ketena 04', 33, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('38', 38, 'AA_AK_06', 'Ketena 05', 33, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('39', 39, 'AA_AK_07', 'Woreda 7', 2, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('40', 40, 'AA_AK_07', 'Ketena 01', 39, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('41', 41, 'AA_AK_07', 'Ketena 02', 39, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('42', 42, 'AA_AK_07', 'Ketena 03', 39, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('43', 43, 'AA_AK_07', 'Ketena 04', 39, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('44', 44, 'AA_AK_07', 'Ketena 05', 39, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('45', 45, 'AA_AK_08', 'Woreda 8', 2, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('46', 46, 'AA_AK_08', 'Ketena 01', 45, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('47', 47, 'AA_AK_08', 'Ketena 02', 45, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('48', 48, 'AA_AK_08', 'Ketena 03', 45, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('49', 49, 'AA_AK_08', 'Ketena 04', 45, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('50', 50, 'AA_AK_08', 'Ketena 05', 45, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('51', 51, 'AA_AK_09', 'Woreda 9', 2, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('52', 52, 'AA_AK_09', 'Ketena 01', 51, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('53', 53, 'AA_AK_09', 'Ketena 02', 51, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('54', 54, 'AA_AK_09', 'Ketena 03', 51, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('55', 55, 'AA_AK_09', 'Ketena 04', 51, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('56', 56, 'AA_AK_09', 'Ketena 05', 51, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('57', 57, 'AA_AK_10', 'Woreda 10', 2, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('58', 58, 'AA_AK_10', 'Ketena 01', 57, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('59', 59, 'AA_AK_10', 'Ketena 02', 57, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('60', 60, 'AA_AK_10', 'Ketena 03', 57, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('61', 61, 'AA_AK_10', 'Ketena 04', 57, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('62', 62, 'AA_AK_10', 'Ketena 05', 57, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('63', 63, 'AA_AK_11', 'Woreda 11', 2, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('64', 64, 'AA_AK_11', 'Ketena 01', 63, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('65', 65, 'AA_AK_11', 'Ketena 02', 63, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('66', 66, 'AA_AK_11', 'Ketena 03', 63, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('67', 67, 'AA_AK_11', 'Ketena 04', 63, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('68', 68, 'AA_AK_11', 'Ketena 05', 63, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('69', 69, 'AA_AK_12', 'Woreda 12', 2, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('70', 70, 'AA_AK_12', 'Ketena 01', 69, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('71', 71, 'AA_AK_12', 'Ketena 02', 69, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('72', 72, 'AA_AK_12', 'Ketena 03', 69, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('73', 73, 'AA_AK_12', 'Ketena 04', 69, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('74', 74, 'AA_AK_12', 'Ketena 05', 69, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('75', 75, 'AA_AK_13', 'Woreda 13', 2, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('76', 76, 'AA_AK_13', 'Ketena 01', 75, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('77', 77, 'AA_AK_13', 'Ketena 02', 75, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('78', 78, 'AA_AK_13', 'Ketena 03', 75, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('79', 79, 'AA_AK_13', 'Ketena 04', 75, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('80', 80, 'AA_AK_13', 'Ketena 05', 75, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('81', 81, 'AA_AK_14', 'Woreda 14', 2, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('82', 82, 'AA_AK_14', 'Ketena 01', 81, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('83', 83, 'AA_AK_14', 'Ketena 02', 81, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('84', 84, 'AA_AK_14', 'Ketena 03', 81, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('85', 85, 'AA_AK_14', 'Ketena 04', 81, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('86', 86, 'AA_AK_14', 'Ketena 05', 81, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('87', 87, 'AA_AK', 'Akaki Kality', 1, 'D', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('88', 88, 'AA_AK_01', 'Woreda 1', 87, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('89', 89, 'AA_AK_01', 'Ketena 01', 88, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('90', 90, 'AA_AK_01', 'Ketena 02', 88, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('91', 91, 'AA_AK_01', 'Ketena 03', 88, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('92', 92, 'AA_AK_01', 'Ketena 04', 88, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('93', 93, 'AA_AK_01', 'Ketena 05', 88, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('94', 94, 'AA_AK_02', 'Woreda 2', 87, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('95', 95, 'AA_AK_02', 'Ketena 01', 94, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('96', 96, 'AA_AK_02', 'Ketena 02', 94, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('97', 97, 'AA_AK_02', 'Ketena 03', 94, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('98', 98, 'AA_AK_02', 'Ketena 04', 94, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('99', 99, 'AA_AK_02', 'Ketena 05', 94, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('100', 100, 'AA_AK_03', 'Woreda 3', 87, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('101', 101, 'AA_AK_03', 'Ketena 01', 100, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('102', 102, 'AA_AK_03', 'Ketena 02', 100, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('103', 103, 'AA_AK_03', 'Ketena 03', 100, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('104', 104, 'AA_AK_03', 'Ketena 04', 100, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('105', 105, 'AA_AK_03', 'Ketena 05', 100, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('106', 106, 'AA_AK_04', 'Woreda 4', 87, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('107', 107, 'AA_AK_04', 'Ketena 01', 106, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('108', 108, 'AA_AK_04', 'Ketena 02', 106, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('109', 109, 'AA_AK_04', 'Ketena 03', 106, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('110', 110, 'AA_AK_04', 'Ketena 04', 106, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('111', 111, 'AA_AK_04', 'Ketena 05', 106, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('112', 112, 'AA_AK_05', 'Woreda 5', 87, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('113', 113, 'AA_AK_05', 'Ketena 01', 112, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('114', 114, 'AA_AK_05', 'Ketena 02', 112, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('115', 115, 'AA_AK_05', 'Ketena 03', 112, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('116', 116, 'AA_AK_05', 'Ketena 04', 112, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('117', 117, 'AA_AK_05', 'Ketena 05', 112, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('118', 118, 'AA_AK_06', 'Woreda 6', 87, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('119', 119, 'AA_AK_06', 'Ketena 01', 118, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('120', 120, 'AA_AK_06', 'Ketena 02', 118, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('121', 121, 'AA_AK_06', 'Ketena 03', 118, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('122', 122, 'AA_AK_06', 'Ketena 04', 118, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('123', 123, 'AA_AK_06', 'Ketena 05', 118, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('124', 124, 'AA_AK_07', 'Woreda 7', 87, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('125', 125, 'AA_AK_07', 'Ketena 01', 124, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('126', 126, 'AA_AK_07', 'Ketena 02', 124, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('127', 127, 'AA_AK_07', 'Ketena 03', 124, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('128', 128, 'AA_AK_07', 'Ketena 04', 124, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('129', 129, 'AA_AK_07', 'Ketena 05', 124, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('130', 130, 'AA_AK_08', 'Woreda 8', 87, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('131', 131, 'AA_AK_08', 'Ketena 01', 130, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('132', 132, 'AA_AK_08', 'Ketena 02', 130, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('133', 133, 'AA_AK_08', 'Ketena 03', 130, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('134', 134, 'AA_AK_08', 'Ketena 04', 130, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('135', 135, 'AA_AK_08', 'Ketena 05', 130, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('136', 136, 'AA_AK_09', 'Woreda 9', 87, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('137', 137, 'AA_AK_09', 'Ketena 01', 136, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('138', 138, 'AA_AK_09', 'Ketena 02', 136, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('139', 139, 'AA_AK_09', 'Ketena 03', 136, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('140', 140, 'AA_AK_09', 'Ketena 04', 136, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('141', 141, 'AA_AK_09', 'Ketena 05', 136, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('142', 142, 'AA_AK_10', 'Woreda 10', 87, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('143', 143, 'AA_AK_10', 'Ketena 01', 142, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('144', 144, 'AA_AK_10', 'Ketena 02', 142, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('145', 145, 'AA_AK_10', 'Ketena 03', 142, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('146', 146, 'AA_AK_10', 'Ketena 04', 142, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('147', 147, 'AA_AK_10', 'Ketena 05', 142, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('148', 148, 'AA_AK_11', 'Woreda 11', 87, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('149', 149, 'AA_AK_11', 'Ketena 01', 148, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('150', 150, 'AA_AK_11', 'Ketena 02', 148, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('151', 151, 'AA_AK_11', 'Ketena 03', 148, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('152', 152, 'AA_AK_11', 'Ketena 04', 148, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('153', 153, 'AA_AK_11', 'Ketena 05', 148, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('154', 154, 'AA_AK_12', 'Woreda 12', 87, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('155', 155, 'AA_AK_12', 'Ketena 01', 154, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('156', 156, 'AA_AK_12', 'Ketena 02', 154, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('157', 157, 'AA_AK_12', 'Ketena 03', 154, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('158', 158, 'AA_AK_12', 'Ketena 04', 154, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('159', 159, 'AA_AK_12', 'Ketena 05', 154, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('160', 160, 'AA_AK_13', 'Woreda 13', 87, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('161', 161, 'AA_AK_13', 'Ketena 01', 160, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('162', 162, 'AA_AK_13', 'Ketena 02', 160, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('163', 163, 'AA_AK_13', 'Ketena 03', 160, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('164', 164, 'AA_AK_13', 'Ketena 04', 160, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('165', 165, 'AA_AK_13', 'Ketena 05', 160, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('166', 166, 'AA_A', 'Arada', 1, 'D', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('167', 167, 'AA_A_01', 'Woreda 1', 166, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('168', 168, 'AA_A_01_', 'Ketena 01', 167, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('169', 169, 'AA_A_01_', 'Ketena 02', 167, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('170', 170, 'AA_A_01_', 'Ketena 03', 167, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('171', 171, 'AA_A_01_', 'Ketena 04', 167, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('172', 172, 'AA_A_01_', 'Ketena 05', 167, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('173', 173, 'AA_A_02', 'Woreda 2', 166, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('174', 174, 'AA_A_02_', 'Ketena 01', 173, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('175', 175, 'AA_A_02_', 'Ketena 02', 173, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('176', 176, 'AA_A_02_', 'Ketena 03', 173, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('177', 177, 'AA_A_02_', 'Ketena 04', 173, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('178', 178, 'AA_A_02_', 'Ketena 05', 173, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('179', 179, 'AA_A_03', 'Woreda 3', 166, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('180', 180, 'AA_A_03_', 'Ketena 01', 179, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('181', 181, 'AA_A_03_', 'Ketena 02', 179, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('182', 182, 'AA_A_03_', 'Ketena 03', 179, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('183', 183, 'AA_A_03_', 'Ketena 04', 179, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('184', 184, 'AA_A_03_', 'Ketena 05', 179, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('185', 185, 'AA_A_04', 'Woreda 4', 166, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('186', 186, 'AA_A_04_', 'Ketena 01', 185, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('187', 187, 'AA_A_04_', 'Ketena 02', 185, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('188', 188, 'AA_A_04_', 'Ketena 03', 185, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('189', 189, 'AA_A_04_', 'Ketena 04', 185, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('190', 190, 'AA_A_04_', 'Ketena 05', 185, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('191', 191, 'AA_A_05', 'Woreda 5', 166, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('192', 192, 'AA_A_05_', 'Ketena 01', 191, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('193', 193, 'AA_A_05_', 'Ketena 02', 191, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('194', 194, 'AA_A_05_', 'Ketena 03', 191, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('195', 195, 'AA_A_05_', 'Ketena 04', 191, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('196', 196, 'AA_A_05_', 'Ketena 05', 191, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('197', 197, 'AA_A_06', 'Woreda 6', 166, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('198', 198, 'AA_A_06_', 'Ketena 01', 197, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('199', 199, 'AA_A_06_', 'Ketena 02', 197, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('200', 200, 'AA_A_06_', 'Ketena 03', 197, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('201', 201, 'AA_A_06_', 'Ketena 04', 197, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('202', 202, 'AA_A_06_', 'Ketena 05', 197, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('203', 203, 'AA_A_07', 'Woreda 7', 166, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('204', 204, 'AA_A_07_', 'Ketena 01', 203, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('205', 205, 'AA_A_07_', 'Ketena 02', 203, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('206', 206, 'AA_A_07_', 'Ketena 03', 203, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('207', 207, 'AA_A_07_', 'Ketena 04', 203, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('208', 208, 'AA_A_07_', 'Ketena 05', 203, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('209', 209, 'AA_A_08', 'Woreda 8', 166, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('210', 210, 'AA_A_08_', 'Ketena 01', 209, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('211', 211, 'AA_A_08_', 'Ketena 02', 209, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('212', 212, 'AA_A_08_', 'Ketena 03', 209, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('213', 213, 'AA_A_08_', 'Ketena 04', 209, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('214', 214, 'AA_A_08_', 'Ketena 05', 209, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('215', 215, 'AA_A_09', 'Woreda 9', 166, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('216', 216, 'AA_A_09_', 'Ketena 01', 215, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('217', 217, 'AA_A_09_', 'Ketena 02', 215, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('218', 218, 'AA_A_09_', 'Ketena 03', 215, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('219', 219, 'AA_A_09_', 'Ketena 04', 215, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('220', 220, 'AA_A_09_', 'Ketena 05', 215, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('221', 221, 'AA_A_10', 'Woreda 10', 166, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('222', 222, 'AA_A_10_', 'Ketena 01', 221, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('223', 223, 'AA_A_10_', 'Ketena 02', 221, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('224', 224, 'AA_A_10_', 'Ketena 03', 221, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('225', 225, 'AA_A_10_', 'Ketena 04', 221, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('226', 226, 'AA_A_10_', 'Ketena 05', 221, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('227', 227, 'AA_B', 'Bole', 1, 'D', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('228', 228, 'AA_B_01', 'Woreda 1', 227, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('229', 229, 'AA_B_01_', 'Ketena 01', 228, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('230', 230, 'AA_B_01_', 'Ketena 02', 228, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('231', 231, 'AA_B_01_', 'Ketena 03', 228, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('232', 232, 'AA_B_01_', 'Ketena 04', 228, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('233', 233, 'AA_B_01_', 'Ketena 05', 228, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('234', 234, 'AA_B_02', 'Woreda 2', 227, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('235', 235, 'AA_B_02_', 'Ketena 01', 234, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('236', 236, 'AA_B_02_', 'Ketena 02', 234, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('237', 237, 'AA_B_02_', 'Ketena 03', 234, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('238', 238, 'AA_B_02_', 'Ketena 04', 234, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('239', 239, 'AA_B_02_', 'Ketena 05', 234, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('240', 240, 'AA_B_03', 'Woreda 3', 227, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('241', 241, 'AA_B_03_', 'Ketena 01', 240, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('242', 242, 'AA_B_03_', 'Ketena 02', 240, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('243', 243, 'AA_B_03_', 'Ketena 03', 240, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('244', 244, 'AA_B_03_', 'Ketena 04', 240, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('245', 245, 'AA_B_03_', 'Ketena 05', 240, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('246', 246, 'AA_B_04', 'Woreda 4', 227, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('247', 247, 'AA_B_04_', 'Ketena 01', 246, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('248', 248, 'AA_B_04_', 'Ketena 02', 246, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('249', 249, 'AA_B_04_', 'Ketena 03', 246, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('250', 250, 'AA_B_04_', 'Ketena 04', 246, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('251', 251, 'AA_B_04_', 'Ketena 05', 246, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('252', 252, 'AA_B_05', 'Woreda 5', 227, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('253', 253, 'AA_B_05_', 'Ketena 01', 252, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('254', 254, 'AA_B_05_', 'Ketena 02', 252, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('255', 255, 'AA_B_05_', 'Ketena 03', 252, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('256', 256, 'AA_B_05_', 'Ketena 04', 252, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('257', 257, 'AA_B_05_', 'Ketena 05', 252, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('258', 258, 'AA_B_06', 'Woreda 6', 227, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('259', 259, 'AA_B_06_', 'Ketena 01', 258, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('260', 260, 'AA_B_06_', 'Ketena 02', 258, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('261', 261, 'AA_B_06_', 'Ketena 03', 258, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('262', 262, 'AA_B_06_', 'Ketena 04', 258, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('263', 263, 'AA_B_06_', 'Ketena 05', 258, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('264', 264, 'AA_B_07', 'Woreda 7', 227, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('265', 265, 'AA_B_07_', 'Ketena 01', 264, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('266', 266, 'AA_B_07_', 'Ketena 02', 264, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('267', 267, 'AA_B_07_', 'Ketena 03', 264, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('268', 268, 'AA_B_07_', 'Ketena 04', 264, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('269', 269, 'AA_B_07_', 'Ketena 05', 264, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('270', 270, 'AA_B_08', 'Woreda 8', 227, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('271', 271, 'AA_B_08_', 'Ketena 01', 270, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('272', 272, 'AA_B_08_', 'Ketena 02', 270, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('273', 273, 'AA_B_08_', 'Ketena 03', 270, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('274', 274, 'AA_B_08_', 'Ketena 04', 270, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('275', 275, 'AA_B_08_', 'Ketena 05', 270, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('276', 276, 'AA_B_09', 'Woreda 9', 227, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('277', 277, 'AA_B_09_', 'Ketena 01', 276, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('278', 278, 'AA_B_09_', 'Ketena 02', 276, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('279', 279, 'AA_B_09_', 'Ketena 03', 276, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('280', 280, 'AA_B_09_', 'Ketena 04', 276, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('281', 281, 'AA_B_09_', 'Ketena 05', 276, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('282', 282, 'AA_B_10', 'Woreda 10', 227, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('283', 283, 'AA_B_10_', 'Ketena 01', 282, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('284', 284, 'AA_B_10_', 'Ketena 02', 282, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('285', 285, 'AA_B_10_', 'Ketena 03', 282, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('286', 286, 'AA_B_10_', 'Ketena 04', 282, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('287', 287, 'AA_B_10_', 'Ketena 05', 282, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('288', 288, 'AA_B_11', 'Woreda 11', 227, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('289', 289, 'AA_B_11_', 'Ketena 01', 288, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('290', 290, 'AA_B_11_', 'Ketena 02', 288, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('291', 291, 'AA_B_11_', 'Ketena 03', 288, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('292', 292, 'AA_B_11_', 'Ketena 04', 288, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('293', 293, 'AA_B_11_', 'Ketena 05', 288, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('294', 294, 'AA_B_12', 'Woreda 12', 227, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('295', 295, 'AA_B_12_', 'Ketena 01', 294, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('296', 296, 'AA_B_12_', 'Ketena 02', 294, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('297', 297, 'AA_B_12_', 'Ketena 03', 294, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('298', 298, 'AA_B_12_', 'Ketena 04', 294, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('299', 299, 'AA_B_12_', 'Ketena 05', 294, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('300', 300, 'AA_B_13', 'Woreda 13', 227, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('301', 301, 'AA_B_13_', 'Ketena 01', 300, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('302', 302, 'AA_B_13_', 'Ketena 02', 300, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('303', 303, 'AA_B_13_', 'Ketena 03', 300, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('304', 304, 'AA_B_13_', 'Ketena 04', 300, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('305', 305, 'AA_B_13_', 'Ketena 05', 300, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('306', 306, 'AA_B_14', 'Woreda 14', 227, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('307', 307, 'AA_B_14_', 'Ketena 01', 306, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('308', 308, 'AA_B_14_', 'Ketena 02', 306, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('309', 309, 'AA_B_14_', 'Ketena 03', 306, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('310', 310, 'AA_B_14_', 'Ketena 04', 306, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('311', 311, 'AA_B_14_', 'Ketena 05', 306, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('312', 312, 'AA_G', 'Gulele', 1, 'D', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('313', 313, 'AA_G_01', 'Woreda 1', 312, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('314', 314, 'AA_G_01_', 'Ketena 01', 313, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('315', 315, 'AA_G_01_', 'Ketena 02', 313, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('316', 316, 'AA_G_01_', 'Ketena 03', 313, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('317', 317, 'AA_G_01_', 'Ketena 04', 313, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('318', 318, 'AA_G_01_', 'Ketena 05', 313, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('319', 319, 'AA_G_02', 'Woreda 2', 312, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('320', 320, 'AA_G_02_', 'Ketena 01', 319, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('321', 321, 'AA_G_02_', 'Ketena 02', 319, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('322', 322, 'AA_G_02_', 'Ketena 03', 319, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('323', 323, 'AA_G_02_', 'Ketena 04', 319, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('324', 324, 'AA_G_02_', 'Ketena 05', 319, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('325', 325, 'AA_G_03', 'Woreda 3', 312, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('326', 326, 'AA_G_03_', 'Ketena 01', 325, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('327', 327, 'AA_G_03_', 'Ketena 02', 325, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('328', 328, 'AA_G_03_', 'Ketena 03', 325, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('329', 329, 'AA_G_03_', 'Ketena 04', 325, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('330', 330, 'AA_G_03_', 'Ketena 05', 325, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('331', 331, 'AA_G_04', 'Woreda 4', 312, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('332', 332, 'AA_G_04_', 'Ketena 01', 331, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('333', 333, 'AA_G_04_', 'Ketena 02', 331, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('334', 334, 'AA_G_04_', 'Ketena 03', 331, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('335', 335, 'AA_G_04_', 'Ketena 04', 331, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('336', 336, 'AA_G_04_', 'Ketena 05', 331, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('337', 337, 'AA_G_05', 'Woreda 5', 312, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('338', 338, 'AA_G_05_', 'Ketena 01', 337, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('339', 339, 'AA_G_05_', 'Ketena 02', 337, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('340', 340, 'AA_G_05_', 'Ketena 03', 337, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('341', 341, 'AA_G_05_', 'Ketena 04', 337, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('342', 342, 'AA_G_05_', 'Ketena 05', 337, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('343', 343, 'AA_G_06', 'Woreda 6', 312, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('344', 344, 'AA_G_06_', 'Ketena 01', 343, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('345', 345, 'AA_G_06_', 'Ketena 02', 343, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('346', 346, 'AA_G_06_', 'Ketena 03', 343, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('347', 347, 'AA_G_06_', 'Ketena 04', 343, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('348', 348, 'AA_G_06_', 'Ketena 05', 343, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('349', 349, 'AA_G_07', 'Woreda 7', 312, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('350', 350, 'AA_G_07_', 'Ketena 01', 349, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('351', 351, 'AA_G_07_', 'Ketena 02', 349, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('352', 352, 'AA_G_07_', 'Ketena 03', 349, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('353', 353, 'AA_G_07_', 'Ketena 04', 349, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('354', 354, 'AA_G_07_', 'Ketena 05', 349, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('355', 355, 'AA_G_08', 'Woreda 8', 312, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('356', 356, 'AA_G_08_', 'Ketena 01', 355, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('357', 357, 'AA_G_08_', 'Ketena 02', 355, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('358', 358, 'AA_G_08_', 'Ketena 03', 355, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('359', 359, 'AA_G_08_', 'Ketena 04', 355, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('360', 360, 'AA_G_08_', 'Ketena 05', 355, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('361', 361, 'AA_G_09', 'Woreda 9', 312, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('362', 362, 'AA_G_09_', 'Ketena 01', 361, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('363', 363, 'AA_G_09_', 'Ketena 02', 361, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('364', 364, 'AA_G_09_', 'Ketena 03', 361, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('365', 365, 'AA_G_09_', 'Ketena 04', 361, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('366', 366, 'AA_G_09_', 'Ketena 05', 361, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('367', 367, 'AA_G_10', 'Woreda 10', 312, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('368', 368, 'AA_G_10_', 'Ketena 01', 367, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('369', 369, 'AA_G_10_', 'Ketena 02', 367, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('370', 370, 'AA_G_10_', 'Ketena 03', 367, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('371', 371, 'AA_G_10_', 'Ketena 04', 367, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('372', 372, 'AA_G_10_', 'Ketena 05', 367, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('373', 373, 'AA_K', 'Kirkos', 1, 'D', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('374', 374, 'AA_K_01', 'Woreda 1', 373, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('375', 375, 'AA_K_01_', 'Ketena 01', 374, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('376', 376, 'AA_K_01_', 'Ketena 02', 374, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('377', 377, 'AA_K_01_', 'Ketena 03', 374, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('378', 378, 'AA_K_01_', 'Ketena 04', 374, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('379', 379, 'AA_K_01_', 'Ketena 05', 374, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('380', 380, 'AA_K_02', 'Woreda 2', 373, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('381', 381, 'AA_K_02_', 'Ketena 01', 380, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('382', 382, 'AA_K_02_', 'Ketena 02', 380, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('383', 383, 'AA_K_02_', 'Ketena 03', 380, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('384', 384, 'AA_K_02_', 'Ketena 04', 380, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('385', 385, 'AA_K_02_', 'Ketena 05', 380, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('386', 386, 'AA_K_03', 'Woreda 3', 373, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('387', 387, 'AA_K_03_', 'Ketena 01', 386, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('388', 388, 'AA_K_03_', 'Ketena 02', 386, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('389', 389, 'AA_K_03_', 'Ketena 03', 386, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('390', 390, 'AA_K_03_', 'Ketena 04', 386, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('391', 391, 'AA_K_03_', 'Ketena 05', 386, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('392', 392, 'AA_K_04', 'Woreda 4', 373, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('393', 393, 'AA_K_04_', 'Ketena 01', 392, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('394', 394, 'AA_K_04_', 'Ketena 02', 392, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('395', 395, 'AA_K_04_', 'Ketena 03', 392, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('396', 396, 'AA_K_04_', 'Ketena 04', 392, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('397', 397, 'AA_K_04_', 'Ketena 05', 392, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('398', 398, 'AA_K_05', 'Woreda 5', 373, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('399', 399, 'AA_K_05_', 'Ketena 01', 398, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('400', 400, 'AA_K_05_', 'Ketena 02', 398, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('401', 401, 'AA_K_05_', 'Ketena 03', 398, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('402', 402, 'AA_K_05_', 'Ketena 04', 398, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('403', 403, 'AA_K_05_', 'Ketena 05', 398, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('404', 404, 'AA_K_06', 'Woreda 6', 373, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('405', 405, 'AA_K_06_', 'Ketena 01', 404, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('406', 406, 'AA_K_06_', 'Ketena 02', 404, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('407', 407, 'AA_K_06_', 'Ketena 03', 404, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('408', 408, 'AA_K_06_', 'Ketena 04', 404, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('409', 409, 'AA_K_06_', 'Ketena 05', 404, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('410', 410, 'AA_K_07', 'Woreda 7', 373, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('411', 411, 'AA_K_07_', 'Ketena 01', 410, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('412', 412, 'AA_K_07_', 'Ketena 02', 410, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('413', 413, 'AA_K_07_', 'Ketena 03', 410, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('414', 414, 'AA_K_07_', 'Ketena 04', 410, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('415', 415, 'AA_K_07_', 'Ketena 05', 410, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('416', 416, 'AA_K_08', 'Woreda 8', 373, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('417', 417, 'AA_K_08_', 'Ketena 01', 416, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('418', 418, 'AA_K_08_', 'Ketena 02', 416, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('419', 419, 'AA_K_08_', 'Ketena 03', 416, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('420', 420, 'AA_K_08_', 'Ketena 04', 416, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('421', 421, 'AA_K_08_', 'Ketena 05', 416, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('422', 422, 'AA_K_09', 'Woreda 9', 373, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('423', 423, 'AA_K_09_', 'Ketena 01', 422, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('424', 424, 'AA_K_09_', 'Ketena 02', 422, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('425', 425, 'AA_K_09_', 'Ketena 03', 422, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('426', 426, 'AA_K_09_', 'Ketena 04', 422, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('427', 427, 'AA_K_09_', 'Ketena 05', 422, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('428', 428, 'AA_K_10', 'Woreda 10', 373, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('429', 429, 'AA_K_10_', 'Ketena 01', 428, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('430', 430, 'AA_K_10_', 'Ketena 02', 428, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('431', 431, 'AA_K_10_', 'Ketena 03', 428, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('432', 432, 'AA_K_10_', 'Ketena 04', 428, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('433', 433, 'AA_K_10_', 'Ketena 05', 428, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('434', 434, 'AA_KK', 'Kolfe Keraniyo', 1, 'D', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('435', 435, 'AA_KK_01', 'Woreda 1', 434, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('436', 436, 'AA_KK_01', 'Ketena 01', 435, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('437', 437, 'AA_KK_01', 'Ketena 02', 435, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('438', 438, 'AA_KK_01', 'Ketena 03', 435, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('439', 439, 'AA_KK_01', 'Ketena 04', 435, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('440', 440, 'AA_KK_01', 'Ketena 05', 435, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('441', 441, 'AA_KK_02', 'Woreda 2', 434, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('442', 442, 'AA_KK_02', 'Ketena 01', 441, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('443', 443, 'AA_KK_02', 'Ketena 02', 441, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('444', 444, 'AA_KK_02', 'Ketena 03', 441, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('445', 445, 'AA_KK_02', 'Ketena 04', 441, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('446', 446, 'AA_KK_02', 'Ketena 05', 441, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('447', 447, 'AA_KK_03', 'Woreda 3', 434, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('448', 448, 'AA_KK_03', 'Ketena 01', 447, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('449', 449, 'AA_KK_03', 'Ketena 02', 447, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('450', 450, 'AA_KK_03', 'Ketena 03', 447, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('451', 451, 'AA_KK_03', 'Ketena 04', 447, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('452', 452, 'AA_KK_03', 'Ketena 05', 447, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('453', 453, 'AA_KK_04', 'Woreda 4', 434, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('454', 454, 'AA_KK_04', 'Ketena 01', 453, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('455', 455, 'AA_KK_04', 'Ketena 02', 453, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('456', 456, 'AA_KK_04', 'Ketena 03', 453, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('457', 457, 'AA_KK_04', 'Ketena 04', 453, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('458', 458, 'AA_KK_04', 'Ketena 05', 453, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('459', 459, 'AA_KK_05', 'Woreda 5', 434, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('460', 460, 'AA_KK_05', 'Ketena 01', 459, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('461', 461, 'AA_KK_05', 'Ketena 02', 459, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('462', 462, 'AA_KK_05', 'Ketena 03', 459, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('463', 463, 'AA_KK_05', 'Ketena 04', 459, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('464', 464, 'AA_KK_05', 'Ketena 05', 459, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('465', 465, 'AA_KK_06', 'Woreda 6', 434, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('466', 466, 'AA_KK_06', 'Ketena 01', 465, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('467', 467, 'AA_KK_06', 'Ketena 02', 465, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('468', 468, 'AA_KK_06', 'Ketena 03', 465, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('469', 469, 'AA_KK_06', 'Ketena 04', 465, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('470', 470, 'AA_KK_06', 'Ketena 05', 465, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('471', 471, 'AA_KK_07', 'Woreda 7', 434, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('472', 472, 'AA_KK_07', 'Ketena 01', 471, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('473', 473, 'AA_KK_07', 'Ketena 02', 471, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('474', 474, 'AA_KK_07', 'Ketena 03', 471, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('475', 475, 'AA_KK_07', 'Ketena 04', 471, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('476', 476, 'AA_KK_07', 'Ketena 05', 471, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('477', 477, 'AA_KK_08', 'Woreda 8', 434, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('478', 478, 'AA_KK_08', 'Ketena 01', 477, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('479', 479, 'AA_KK_08', 'Ketena 02', 477, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('480', 480, 'AA_KK_08', 'Ketena 03', 477, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('481', 481, 'AA_KK_08', 'Ketena 04', 477, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('482', 482, 'AA_KK_08', 'Ketena 05', 477, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('483', 483, 'AA_KK_09', 'Woreda 9', 434, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('484', 484, 'AA_KK_09', 'Ketena 01', 483, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('485', 485, 'AA_KK_09', 'Ketena 02', 483, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('486', 486, 'AA_KK_09', 'Ketena 03', 483, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('487', 487, 'AA_KK_09', 'Ketena 04', 483, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('488', 488, 'AA_KK_09', 'Ketena 05', 483, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('489', 489, 'AA_KK_10', 'Woreda 10', 434, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('490', 490, 'AA_KK_10', 'Ketena 01', 489, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('491', 491, 'AA_KK_10', 'Ketena 02', 489, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('492', 492, 'AA_KK_10', 'Ketena 03', 489, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('493', 493, 'AA_KK_10', 'Ketena 04', 489, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('494', 494, 'AA_KK_10', 'Ketena 05', 489, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('495', 495, 'AA_KK_11', 'Woreda 11', 434, 'W', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('496', 496, 'AA_KK_11', 'Ketena 01', 495, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('497', 497, 'AA_KK_11', 'Ketena 02', 495, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('498', 498, 'AA_KK_11', 'Ketena 03', 495, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES 
+('499', 499, 'AA_KK_11', 'Ketena 04', 495, 'V', CAST(N'2024-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, gen_random_uuid());
 
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('500',  500,   'AA_KK_11',   'Ketena 05',  495,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('501',  501,   'AA_LK',   'Lemi Kura',  1,   
+ 'D',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('502',  502,   'AA_LK_01',   'Woreda 1',  501,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('503',  503,   'AA_LK_01',   'Ketena 01',  502,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('504',  504,   'AA_LK_01',   'Ketena 02',  502,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('505',  505,   'AA_LK_01',   'Ketena 03',  502,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('506',  506,   'AA_LK_01',   'Ketena 04',  502,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('507',  507,   'AA_LK_01',   'Ketena 05',  502,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('508',  508,   'AA_LK_02',   'Woreda 2',  501,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('509',  509,   'AA_LK_02',   'Ketena 01',  508,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('510',  510,   'AA_LK_02',   'Ketena 02',  508,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('511',  511,   'AA_LK_02',   'Ketena 03',  508,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('512',  512,   'AA_LK_02',   'Ketena 04',  508,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('513',  513,   'AA_LK_02',   'Ketena 05',  508,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('514',  514,   'AA_LK_03',   'Woreda 3',  501,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('515',  515,   'AA_LK_03',   'Ketena 01',  514,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('516',  516,   'AA_LK_03',   'Ketena 02',  514,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('517',  517,   'AA_LK_03',   'Ketena 03',  514,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('518',  518,   'AA_LK_03',   'Ketena 04',  514,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('519',  519,   'AA_LK_03',   'Ketena 05',  514,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('520',  520,   'AA_LK_04',   'Woreda 4',  501,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('521',  521,   'AA_LK_04',   'Ketena 01',  520,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('522',  522,   'AA_LK_04',   'Ketena 02',  520,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('523',  523,   'AA_LK_04',   'Ketena 03',  520,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('524',  524,   'AA_LK_04',   'Ketena 04',  520,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('525',  525,   'AA_LK_04',   'Ketena 05',  520,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('526',  526,   'AA_LK_05',   'Woreda 5',  501,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('527',  527,   'AA_LK_05',   'Ketena 01',  526,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('528',  528,   'AA_LK_05',   'Ketena 02',  526,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('529',  529,   'AA_LK_05',   'Ketena 03',  526,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('530',  530,   'AA_LK_05',   'Ketena 04',  526,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('531',  531,   'AA_LK_05',   'Ketena 05',  526,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('532',  532,   'AA_LK_06',   'Woreda 6',  501,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('533',  533,   'AA_LK_06',   'Ketena 01',  532,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('534',  534,   'AA_LK_06',   'Ketena 02',  532,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('535',  535,   'AA_LK_06',   'Ketena 03',  532,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('536',  536,   'AA_LK_06',   'Ketena 04',  532,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('537',  537,   'AA_LK_06',   'Ketena 05',  532,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('538',  538,   'AA_LK_07',   'Woreda 7',  501,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('539',  539,   'AA_LK_07',   'Ketena 01',  538,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('540',  540,   'AA_LK_07',   'Ketena 02',  538,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('541',  541,   'AA_LK_07',   'Ketena 03',  538,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('542',  542,   'AA_LK_07',   'Ketena 04',  538,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('543',  543,   'AA_LK_07',   'Ketena 05',  538,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('544',  544,   'AA_LK_08',   'Woreda 8',  501,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('545',  545,   'AA_LK_08',   'Ketena 01',  544,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('546',  546,   'AA_LK_08',   'Ketena 02',  544,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('547',  547,   'AA_LK_08',   'Ketena 03',  544,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('548',  548,   'AA_LK_08',   'Ketena 04',  544,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('549',  549,   'AA_LK_08',   'Ketena 05',  544,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('550',  550,   'AA_LK_09',   'Woreda 9',  501,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('551',  551,   'AA_LK_09',   'Ketena 01',  550,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('552',  552,   'AA_LK_09',   'Ketena 02',  550,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('553',  553,   'AA_LK_09',   'Ketena 03',  550,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('554',  554,   'AA_LK_09',   'Ketena 04',  550,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('555',  555,   'AA_LK_09',   'Ketena 05',  550,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('556',  556,   'AA_LK_10',   'Woreda 10',  501,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('557',  557,   'AA_LK_10',   'Ketena 01',  556,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('558',  558,   'AA_LK_10',   'Ketena 02',  556,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('559',  559,   'AA_LK_10',   'Ketena 03',  556,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('560',  560,   'AA_LK_10',   'Ketena 04',  556,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('561',  561,   'AA_LK_10',   'Ketena 05',  556,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('562',  562,   'AA_LK_11',   'Woreda 11',  501,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('563',  563,   'AA_LK_11',   'Ketena 01',  562,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('564',  564,   'AA_LK_11',   'Ketena 02',  562,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('565',  565,   'AA_LK_11',   'Ketena 03',  562,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('566',  566,   'AA_LK_11',   'Ketena 04',  562,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('567',  567,   'AA_LK_11',   'Ketena 05',  562,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('568',  568,   'AA_LK_12',   'Woreda 12',  501,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('569',  569,   'AA_LK_12',   'Ketena 01',  568,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('570',  570,   'AA_LK_12',   'Ketena 02',  568,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('571',  571,   'AA_LK_12',   'Ketena 03',  568,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('572',  572,   'AA_LK_12',   'Ketena 04',  568,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('573',  573,   'AA_LK_12',   'Ketena 05',  568,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('574',  574,   'AA_LK_13',   'Woreda 13',  501,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('575',  575,   'AA_LK_13',   'Ketena 01',  574,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('576',  576,   'AA_LK_13',   'Ketena 02',  574,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('577',  577,   'AA_LK_13',   'Ketena 03',  574,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('578',  578,   'AA_LK_13',   'Ketena 04',  574,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('579',  579,   'AA_LK_13',   'Ketena 05',  574,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('580',  580,   'AA_LK_14',   'Woreda 14',  501,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('581',  581,   'AA_LK_14',   'Ketena 01',  580,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('582',  582,   'AA_LK_14',   'Ketena 02',  580,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('583',  583,   'AA_LK_14',   'Ketena 03',  580,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('584',  584,   'AA_LK_14',   'Ketena 04',  580,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('585',  585,   'AA_LK_14',   'Ketena 05',  580,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('586',  586,   'AA_L',   'Lideta',  1,   
+ 'D',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('587',  587,   'AA_L_01',   'Woreda 1',  586,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('588',  588,   'AA_L_01_',   'Ketena 01',  587,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('589',  589,   'AA_L_01_',   'Ketena 02',  587,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('590',  590,   'AA_L_01_',   'Ketena 03',  587,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('591',  591,   'AA_L_01_',   'Ketena 04',  587,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('592',  592,   'AA_L_01_',   'Ketena 05',  587,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('593',  593,   'AA_L_02',   'Woreda 2',  586,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('594',  594,   'AA_L_02_',   'Ketena 01',  593,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('595',  595,   'AA_L_02_',   'Ketena 02',  593,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('596',  596,   'AA_L_02_',   'Ketena 03',  593,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('597',  597,   'AA_L_02_',   'Ketena 04',  593,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('598',  598,   'AA_L_02_',   'Ketena 05',  593,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('599',  599,   'AA_L_03',   'Woreda 3',  586,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('600',  600,   'AA_L_03_',   'Ketena 01',  599,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('601',  601,   'AA_L_03_',   'Ketena 02',  599,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('602',  602,   'AA_L_03_',   'Ketena 03',  599,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('603',  603,   'AA_L_03_',   'Ketena 04',  599,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('604',  604,   'AA_L_03_',   'Ketena 05',  599,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('605',  605,   'AA_L_04',   'Woreda 4',  586,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('606',  606,   'AA_L_04_',   'Ketena 01',  605,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('607',  607,   'AA_L_04_',   'Ketena 02',  605,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('608',  608,   'AA_L_04_',   'Ketena 03',  605,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('609',  609,   'AA_L_04_',   'Ketena 04',  605,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('610',  610,   'AA_L_04_',   'Ketena 05',  605,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('611',  611,   'AA_L_05',   'Woreda 5',  586,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('612',  612,   'AA_L_05_',   'Ketena 01',  611,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('613',  613,   'AA_L_05_',   'Ketena 02',  611,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('614',  614,   'AA_L_05_',   'Ketena 03',  611,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('615',  615,   'AA_L_05_',   'Ketena 04',  611,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('616',  616,   'AA_L_05_',   'Ketena 05',  611,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('617',  617,   'AA_L_06',   'Woreda 6',  586,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('618',  618,   'AA_L_06_',   'Ketena 01',  617,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('619',  619,   'AA_L_06_',   'Ketena 02',  617,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('620',  620,   'AA_L_06_',   'Ketena 03',  617,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('621',  621,   'AA_L_06_',   'Ketena 04',  617,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('622',  622,   'AA_L_06_',   'Ketena 05',  617,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('623',  623,   'AA_L_07',   'Woreda 7',  586,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('624',  624,   'AA_L_07_',   'Ketena 01',  623,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('625',  625,   'AA_L_07_',   'Ketena 02',  623,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('626',  626,   'AA_L_07_',   'Ketena 03',  623,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('627',  627,   'AA_L_07_',   'Ketena 04',  623,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('628',  628,   'AA_L_07_',   'Ketena 05',  623,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('629',  629,   'AA_L_08',   'Woreda 8',  586,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('630',  630,   'AA_L_08_',   'Ketena 01',  629,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('631',  631,   'AA_L_08_',   'Ketena 02',  629,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('632',  632,   'AA_L_08_',   'Ketena 03',  629,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('633',  633,   'AA_L_08_',   'Ketena 04',  629,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('634',  634,   'AA_L_08_',   'Ketena 05',  629,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('635',  635,   'AA_L_09',   'Woreda 9',  586,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('636',  636,   'AA_L_09_',   'Ketena 01',  635,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('637',  637,   'AA_L_09_',   'Ketena 02',  635,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('638',  638,   'AA_L_09_',   'Ketena 03',  635,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('639',  639,   'AA_L_09_',   'Ketena 04',  635,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('640',  640,   'AA_L_09_',   'Ketena 05',  635,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('641',  641,   'AA_L_10',   'Woreda 10',  586,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('642',  642,   'AA_L_10_',   'Ketena 01',  641,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('643',  643,   'AA_L_10_',   'Ketena 02',  641,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('644',  644,   'AA_L_10_',   'Ketena 03',  641,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('645',  645,   'AA_L_10_',   'Ketena 04',  641,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('646',  646,   'AA_L_10_',   'Ketena 05',  641,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('647',  647,   'AA_NSL',   'Nifas Silk Lafto',  1,   
+ 'D',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('648',  648,   'AA_NSL_0',   'Woreda 1',  647,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('649',  649,   'AA_NSL_0',   'Ketena 01',  648,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('650',  650,   'AA_NSL_0',   'Ketena 02',  648,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('651',  651,   'AA_NSL_0',   'Ketena 03',  648,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('652',  652,   'AA_NSL_0',   'Ketena 04',  648,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('653',  653,   'AA_NSL_0',   'Ketena 05',  648,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('654',  654,   'AA_NSL_0',   'Woreda 2',  647,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('655',  655,   'AA_NSL_0',   'Ketena 01',  654,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('656',  656,   'AA_NSL_0',   'Ketena 02',  654,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('657',  657,   'AA_NSL_0',   'Ketena 03',  654,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('658',  658,   'AA_NSL_0',   'Ketena 04',  654,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('659',  659,   'AA_NSL_0',   'Ketena 05',  654,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('660',  660,   'AA_NSL_0',   'Woreda 3',  647,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('661',  661,   'AA_NSL_0',   'Ketena 01',  660,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('662',  662,   'AA_NSL_0',   'Ketena 02',  660,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('663',  663,   'AA_NSL_0',   'Ketena 03',  660,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('664',  664,   'AA_NSL_0',   'Ketena 04',  660,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('665',  665,   'AA_NSL_0',   'Ketena 05',  660,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('666',  666,   'AA_NSL_0',   'Woreda 4',  647,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('667',  667,   'AA_NSL_0',   'Ketena 01',  666,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('668',  668,   'AA_NSL_0',   'Ketena 02',  666,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('669',  669,   'AA_NSL_0',   'Ketena 03',  666,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('670',  670,   'AA_NSL_0',   'Ketena 04',  666,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('671',  671,   'AA_NSL_0',   'Ketena 05',  666,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('672',  672,   'AA_NSL_0',   'Woreda 5',  647,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('673',  673,   'AA_NSL_0',   'Ketena 01',  672,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('674',  674,   'AA_NSL_0',   'Ketena 02',  672,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('675',  675,   'AA_NSL_0',   'Ketena 03',  672,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('676',  676,   'AA_NSL_0',   'Ketena 04',  672,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('677',  677,   'AA_NSL_0',   'Ketena 05',  672,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('678',  678,   'AA_NSL_0',   'Woreda 6',  647,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('679',  679,   'AA_NSL_0',   'Ketena 01',  678,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('680',  680,   'AA_NSL_0',   'Ketena 02',  678,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('681',  681,   'AA_NSL_0',   'Ketena 03',  678,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('682',  682,   'AA_NSL_0',   'Ketena 04',  678,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('683',  683,   'AA_NSL_0',   'Ketena 05',  678,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('684',  684,   'AA_NSL_0',   'Woreda 7',  647,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('685',  685,   'AA_NSL_0',   'Ketena 01',  684,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('686',  686,   'AA_NSL_0',   'Ketena 02',  684,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('687',  687,   'AA_NSL_0',   'Ketena 03',  684,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('688',  688,   'AA_NSL_0',   'Ketena 04',  684,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('689',  689,   'AA_NSL_0',   'Ketena 05',  684,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('690',  690,   'AA_NSL_0',   'Woreda 8',  647,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('691',  691,   'AA_NSL_0',   'Ketena 01',  690,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('692',  692,   'AA_NSL_0',   'Ketena 02',  690,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('693',  693,   'AA_NSL_0',   'Ketena 03',  690,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('694',  694,   'AA_NSL_0',   'Ketena 04',  690,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('695',  695,   'AA_NSL_0',   'Ketena 05',  690,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('696',  696,   'AA_NSL_0',   'Woreda 9',  647,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('697',  697,   'AA_NSL_0',   'Ketena 01',  696,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('698',  698,   'AA_NSL_0',   'Ketena 02',  696,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('699',  699,   'AA_NSL_0',   'Ketena 03',  696,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('700',  700,   'AA_NSL_0',   'Ketena 04',  696,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('701',  701,   'AA_NSL_0',   'Ketena 05',  696,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('702',  702,   'AA_NSL_1',   'Woreda 10',  647,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('703',  703,   'AA_NSL_1',   'Ketena 01',  702,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('704',  704,   'AA_NSL_1',   'Ketena 02',  702,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('705',  705,   'AA_NSL_1',   'Ketena 03',  702,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('706',  706,   'AA_NSL_1',   'Ketena 04',  702,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('707',  707,   'AA_NSL_1',   'Ketena 05',  702,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('708',  708,   'AA_NSL_1',   'Woreda 11',  647,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('709',  709,   'AA_NSL_1',   'Ketena 01',  708,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('710',  710,   'AA_NSL_1',   'Ketena 02',  708,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('711',  711,   'AA_NSL_1',   'Ketena 03',  708,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('712',  712,   'AA_NSL_1',   'Ketena 04',  708,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('713',  713,   'AA_NSL_1',   'Ketena 05',  708,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('714',  714,   'AA_NSL_1',   'Woreda 12',  647,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('715',  715,   'AA_NSL_1',   'Ketena 01',  714,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('716',  716,   'AA_NSL_1',   'Ketena 02',  714,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('717',  717,   'AA_NSL_1',   'Ketena 03',  714,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('718',  718,   'AA_NSL_1',   'Ketena 04',  714,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('719',  719,   'AA_NSL_1',   'Ketena 05',  714,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('720',  720,   'AA_NSL_1',   'Woreda 13',  647,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('721',  721,   'AA_NSL_1',   'Ketena 01',  720,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('722',  722,   'AA_NSL_1',   'Ketena 02',  720,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('723',  723,   'AA_NSL_1',   'Ketena 03',  720,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('724',  724,   'AA_NSL_1',   'Ketena 04',  720,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('725',  725,   'AA_NSL_1',   'Ketena 05',  720,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('726',  726,   'AA_NSL_1',   'Woreda 14',  647,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('727',  727,   'AA_NSL_1',   'Ketena 01',  726,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('728',  728,   'AA_NSL_1',   'Ketena 02',  726,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('729',  729,   'AA_NSL_1',   'Ketena 03',  726,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('730',  730,   'AA_NSL_1',   'Ketena 04',  726,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('731',  731,   'AA_NSL_1',   'Ketena 05',  726,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('732',  732,   'AA_NSL_1',   'Woreda 15',  647,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('733',  733,   'AA_NSL_1',   'Ketena 01',  732,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('734',  734,   'AA_NSL_1',   'Ketena 02',  732,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('735',  735,   'AA_NSL_1',   'Ketena 03',  732,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('736',  736,   'AA_NSL_1',   'Ketena 04',  732,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('737',  737,   'AA_NSL_1',   'Ketena 05',  732,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('738',  738,   'AA_Y',   'Yeka',  1,   
+ 'D',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('739',  739,   'AA_Y_01',   'Woreda 1',  738,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('740',  740,   'AA_Y_01_',   'Ketena 01',  739,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('741',  741,   'AA_Y_01_',   'Ketena 02',  739,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('742',  742,   'AA_Y_01_',   'Ketena 03',  739,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('743',  743,   'AA_Y_01_',   'Ketena 04',  739,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('744',  744,   'AA_Y_01_',   'Ketena 05',  739,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('745',  745,   'AA_Y_02',   'Woreda 2',  738,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('746',  746,   'AA_Y_02_',   'Ketena 01',  745,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('747',  747,   'AA_Y_02_',   'Ketena 02',  745,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('748',  748,   'AA_Y_02_',   'Ketena 03',  745,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('749',  749,   'AA_Y_02_',   'Ketena 04',  745,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('750',  750,   'AA_Y_02_',   'Ketena 05',  745,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('751',  751,   'AA_Y_03',   'Woreda 3',  738,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('752',  752,   'AA_Y_03_',   'Ketena 01',  751,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('753',  753,   'AA_Y_03_',   'Ketena 02',  751,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('754',  754,   'AA_Y_03_',   'Ketena 03',  751,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('755',  755,   'AA_Y_03_',   'Ketena 04',  751,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('756',  756,   'AA_Y_03_',   'Ketena 05',  751,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('757',  757,   'AA_Y_04',   'Woreda 4',  738,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('758',  758,   'AA_Y_04_',   'Ketena 01',  757,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('759',  759,   'AA_Y_04_',   'Ketena 02',  757,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('760',  760,   'AA_Y_04_',   'Ketena 03',  757,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('761',  761,   'AA_Y_04_',   'Ketena 04',  757,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('762',  762,   'AA_Y_04_',   'Ketena 05',  757,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('763',  763,   'AA_Y_05',   'Woreda 5',  738,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('764',  764,   'AA_Y_05_',   'Ketena 01',  763,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('765',  765,   'AA_Y_05_',   'Ketena 02',  763,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('766',  766,   'AA_Y_05_',   'Ketena 03',  763,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('767',  767,   'AA_Y_05_',   'Ketena 04',  763,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('768',  768,   'AA_Y_05_',   'Ketena 05',  763,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('769',  769,   'AA_Y_06',   'Woreda 6',  738,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('770',  770,   'AA_Y_06_',   'Ketena 01',  769,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('771',  771,   'AA_Y_06_',   'Ketena 02',  769,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('772',  772,   'AA_Y_06_',   'Ketena 03',  769,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('773',  773,   'AA_Y_06_',   'Ketena 04',  769,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('774',  774,   'AA_Y_06_',   'Ketena 05',  769,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('775',  775,   'AA_Y_07',   'Woreda 7',  738,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('776',  776,   'AA_Y_07_',   'Ketena 01',  775,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('777',  777,   'AA_Y_07_',   'Ketena 02',  775,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('778',  778,   'AA_Y_07_',   'Ketena 03',  775,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('779',  779,   'AA_Y_07_',   'Ketena 04',  775,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('780',  780,   'AA_Y_07_',   'Ketena 05',  775,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('781',  781,   'AA_Y_08',   'Woreda 8',  738,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('782',  782,   'AA_Y_08_',   'Ketena 01',  781,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('783',  783,   'AA_Y_08_',   'Ketena 02',  781,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('784',  784,   'AA_Y_08_',   'Ketena 03',  781,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('785',  785,   'AA_Y_08_',   'Ketena 04',  781,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('786',  786,   'AA_Y_08_',   'Ketena 05',  781,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('787',  787,   'AA_Y_09',   'Woreda 9',  738,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('788',  788,   'AA_Y_09_',   'Ketena 01',  787,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('789',  789,   'AA_Y_09_',   'Ketena 02',  787,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('790',  790,   'AA_Y_09_',   'Ketena 03',  787,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('791',  791,   'AA_Y_09_',   'Ketena 04',  787,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('792',  792,   'AA_Y_09_',   'Ketena 05',  787,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('793',  793,   'AA_Y_10',   'Woreda 10',  738,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('794',  794,   'AA_Y_10_',   'Ketena 01',  793,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('795',  795,   'AA_Y_10_',   'Ketena 02',  793,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('796',  796,   'AA_Y_10_',   'Ketena 03',  793,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('797',  797,   'AA_Y_10_',   'Ketena 04',  793,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('798',  798,   'AA_Y_10_',   'Ketena 05',  793,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('799',  799,   'AA_Y_11',   'Woreda 11',  738,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('800',  800,   'AA_Y_11_',   'Ketena 01',  799,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('801',  801,   'AA_Y_11_',   'Ketena 02',  799,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('802',  802,   'AA_Y_11_',   'Ketena 03',  799,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('803',  803,   'AA_Y_11_',   'Ketena 04',  799,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('804',  804,   'AA_Y_11_',   'Ketena 05',  799,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('805',  805,   'AA_Y_12',   'Woreda 12',  738,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('806',  806,   'AA_Y_12_',   'Ketena 01',  805,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('807',  807,   'AA_Y_12_',   'Ketena 02',  805,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('808',  808,   'AA_Y_12_',   'Ketena 03',  805,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('809',  809,   'AA_Y_12_',   'Ketena 04',  805,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('810',  810,   'AA_Y_12_',   'Ketena 05',  805,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('811',  811,   'AA_Y_13',   'Woreda 13',  738,   
+ 'W',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('812',  812,   'AA_Y_13_',   'Ketena 01',  811,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('813',  813,   'AA_Y_13_',   'Ketena 02',  811,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('814',  814,   'AA_Y_13_',   'Ketena 03',  811,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('815',  815,   'AA_Y_13_',   'Ketena 04',  811,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
+INSERT INTO "tblLocations" 
+("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
+ "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
+ "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
+VALUES ('816',  816,   'AA_Y_13_',   'Ketena 05',  811,   
+ 'V',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
 
+ 
 -- tblHFSublevel
 INSERT INTO "tblHFSublevel" ("HFSublevel", "HFSublevelDesc", "SortOrder", "AltLanguage") VALUES (N'I', N'Integrated', NULL, NULL);
 INSERT INTO "tblHFSublevel" ("HFSublevel", "HFSublevelDesc", "SortOrder", "AltLanguage") VALUES (N'N', N'No Sublevel', NULL, NULL);
@@ -1179,36 +6337,101 @@ INSERT INTO "tblHFSublevel" ("HFSublevel", "HFSublevelDesc", "SortOrder", "AltLa
 COMMIT;
 
 -- tblHF
-INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (1, N'JMHOS001', N'Jambero District Hospital', N'G', N'H', NULL, N'Lantern Road 21\nP.O.Box 3425', 55, N'', N'', N'', N'B', 7, 8, N'DL0002', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'026e088a-fbd5-474e-8d42-069958a34127');
-INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (2, N'RAHOS001', N'Rapta District Hospital', N'G', N'H', NULL, N'Danchi Road 234\nP.O.Box 2715', 17, N'', N'', N'', N'B', 7, 8, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, 2, 2, N'd8a25f21-f36a-4d4d-9e58-1db8ffbe7036');
-INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (3, N'RAHO001', N'Rapta District Hospital', N'G', N'H', NULL, N'Danchi Road 234\nP.O.Box 2715', 17, N'', N'', N'', N'B', 7, 8, N'', 0::boolean, CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 2, 2, N'221cad8d-2a7d-46d5-8369-734d405b519f');
-INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (4, N'UPHOS001', N'Uptol District Hospital', N'G', N'H', NULL, N'Abijan road 2512\nP.O.Box 9564', 56, N'', N'', N'', N'B', 7, 8, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'e5131cc5-bcd6-460c-b6bb-54da3f2506f2');
-INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (5, N'ROHOS001', N'Rajo District Hospital', N'G', N'H', NULL, N'Calogri road 176\nP.O.Box 7453', 19, N'', N'', N'', N'B', 17, 6, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'1ebc4a36-d143-45eb-ab93-d7e973d8f14b');
-INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (6, N'VIHOS001', N'Vida District Hospital', N'G', N'H', NULL, N'Eolard road 78\nP.O.Box 3785', 20, N'', N'', N'', N'B', 17, 6, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'05c0d312-7cf2-4e21-8004-a78eec008f5a');
-INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (7, N'JMHC001', N'Jamini Health Centre', N'G', N'C', NULL, N'Reduci road 42', 55, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, 7, 2, N'7e0d15b9-aa6f-4e2e-9b69-0332f2d78a07');
-INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (8, N'RAHC001', N'Zuja Health Centre', N'G', N'C', NULL, N'Tubi road 26', 17, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, 8, 2, N'8403fe10-dc83-41a0-90a2-9fab63928275');
-INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (9, N'UPHC001', N'Tzah Health Centre', N'G', N'C', NULL, N'Gufui road 84', 56, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, 9, 2, N'fb83cef0-d793-4574-a5e7-9481d7c4777a');
-INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (10, N'ROHC001', N'Fulhui Health Centre', N'G', N'C', NULL, N'Layout road 867', 19, N'', N'', N'', N'O', 16, 9, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, 10, 2, N'0e095e81-9d5d-4b39-9ac7-91d22509bf06');
-INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (11, N'VIHC001', N'Juilöa Health Centre', N'G', N'C', NULL, N'Guazn Health Centre', 20, N'', N'', N'', N'O', 16, 9, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, 11, 2, N'bc1da96c-ad55-4978-9dca-59335adc7469');
-INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (12, N'JMDP001', N'Huda Dispensary', N'G', N'D', NULL, N'Jolywel road 675', 55, N'', N'', N'', N'O', 5, 1, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, 12, 2, N'079e777b-b12b-4763-a646-3773e906f9d7');
-INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (13, N'RADS002', N'Kitua Dispensary', N'G', N'D', NULL, N'Lado road 756', 17, N'', N'', N'', N'O', 5, 1, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, 13, 2, N'f988cfd9-eba2-446e-8e6d-bfcbf8e53b9a');
-INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (14, N'RADS001', N'Kitua Dispensary', N'G', N'C', NULL, N'Lado road 756', 17, N'', N'', N'', N'O', NULL, NULL, N'', 0::boolean, CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 13, 2, N'b04d9279-b88f-48a8-bde0-90447b4f8341');
-INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (15, N'JMDP001', N'Huda dispensary', N'G', N'D', NULL, N'Jolywel road 675', 55, N'', N'', N'', N'O', NULL, NULL, N'', 0::boolean, CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 12, 2, N'42af9132-1caf-4980-a88e-02463662c3c0');
-INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (16, N'UPDS001', N'Loai Dispensary', N'G', N'D', NULL, N'Zuta road 862', 56, N'', N'', N'', N'O', 5, 1, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, 16, 2, N'1d43dfbf-c160-4373-b774-bee598c83262');
-INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (17, N'RADS001', N'Yuahn Dispensary', N'G', N'D', NULL, N'Gunda road 723', 19, N'', N'', N'', N'O', 14, 2, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, 17, 2, N'8782079c-aa5b-43c3-97ab-b8b8a3fa5df2');
-INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (18, N'VIDS001', N'Viru Dispensary', N'G', N'D', NULL, N'Uitly road 1', 20, N'', N'', N'', N'O', 14, 2, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, 18, 2, N'5c08e764-04ed-42a0-bbea-fe0ea4c08a3f');
-INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (19, N'RADS001', N'Kitua Dispensary', N'G', N'D', NULL, N'Lado road 756', 17, N'', N'', N'', N'O', NULL, NULL, N'', 0::boolean, CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 13, 2, N'0f3f2132-4a14-47e7-882a-4e97078782da');
-INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (20, N'VIDS001', N'Viru Dispensary', N'G', N'D', NULL, N'Uitly road 1', 20, N'', N'', N'', N'O', NULL, NULL, N'', 0::boolean, CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 18, 2, N'f13ef73e-d6e6-445b-8930-552403503986');
-INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (21, N'VIHC001', N'Juilöa Health Centre', N'G', N'C', NULL, N'Guazn Health Centre', 20, N'', N'', N'', N'O', NULL, NULL, N'', 0::boolean, CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 11, 2, N'8ab9bc91-4a56-40fd-9262-3720700bfc1c');
-INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (22, N'UPHC001', N'Tzah Health Centre', N'G', N'C', NULL, N'Gufui road 84', 56, N'', N'', N'', N'O', NULL, NULL, N'', 0::boolean, CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 9, 2, N'8c4e661f-8090-40c6-8885-30966ee152c6');
-INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (23, N'UPDS001', N'Loai Dispensary', N'G', N'D', NULL, N'Zuta road 862', 56, N'', N'', N'', N'O', NULL, NULL, N'', 0::boolean, CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 16, 2, N'44bde314-a991-4f3e-abc3-90be82f46dc3');
-INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (24, N'ROHC001', N'Fulhui Health Centre', N'G', N'C', NULL, N'Layout road 867', 19, N'', N'', N'', N'O', NULL, NULL, N'', 0::boolean, CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 10, 2, N'7bded7a7-da68-4bea-9670-e499281f9b8b');
-INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (25, N'RAHC001', N'Zuja Health Centre', N'G', N'C', NULL, N'Tubi road 26', 17, N'', N'', N'', N'O', NULL, NULL, N'', 0::boolean, CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 8, 2, N'239a2e7a-a917-4ccf-83c3-cf30b2d409ad');
-INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (26, N'RADS002', N'Kitua Dispensary', N'G', N'D', NULL, N'Lado road 756', 17, N'', N'', N'', N'O', NULL, NULL, N'', 0::boolean, CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 13, 2, N'd288d860-2c20-4609-a36f-d25dd92c2fef');
-INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (27, N'RADS001', N'Yuahn Dispensary', N'G', N'D', NULL, N'Gunda road 723', 19, N'', N'', N'', N'O', NULL, NULL, N'', 0::boolean, CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 17, 2, N'c5f64695-ef67-44b0-aa47-9392e799bd67');
-INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (28, N'JMDP001', N'Huda Dispensary', N'G', N'D', NULL, N'Jolywel road 675', 55, N'', N'', N'', N'O', NULL, NULL, N'', 0::boolean, CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 12, 2, N'9f931acf-cc80-4d56-a17e-c54afc0c2e80');
-INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (29, N'JMHC001', N'Jamini Health Centre', N'G', N'C', NULL, N'Reduci road 42', 55, N'', N'', N'', N'O', 5, 1, N'', 0::boolean, CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 7, 2, N'a7526c02-3444-43f5-b151-b7b12cafc9e0');
-
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (1, N'ABA001', N'Abado Health Center', N'G', N'C', NULL, N'', 501, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'1a2b3c4d-1234-4abc-9abc-123456789abc');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (2, N'ABB001', N'Abebe Bikila Health Center', N'G', N'C', NULL, N'', 2, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'2b3c4d5e-2345-4bcd-0bcd-234567890bcd');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (3, N'ABI001', N'Abisiniya Health center', N'G', N'C', NULL, N'', 2, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'3c4d5e6f-3456-4cde-1cde-345678901cde');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (4, N'ABN001', N'Abnet Health center', N'G', N'C', NULL, N'', 586, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'4d5e6f70-4567-4def-2def-456789012def');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (5, N'ABU001', N'Abuare Health Center', N'G', N'C', NULL, N'', 166, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'5e6f7081-5678-4ef0-3ef0-567890123ef0');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (6, N'ADD001', N'Addis Hiwot health Center', N'G', N'C', NULL, N'', 312, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'6f708192-6789-4f01-4f01-678901234f01');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (7, N'ADD002', N'Addis Ketema Health Center', N'G', N'C', NULL, N'', 2, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'708192a3-7890-4012-5012-789012345012');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (8, N'ADD003', N'Addis Rae Health center', N'G', N'C', NULL, N'', 2, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'8192a3b4-8901-4123-6123-890123456123');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (9, N'ADD004', N'Addisu Gebaya Health Center', N'G', N'C', NULL, N'', 312, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'92a3b4c5-9012-4234-7234-901234567234');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (10, N'AFI001', N'Afinchober Health Center', N'G', N'C', NULL, N'', 166, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'a3b4c5d6-0123-4345-8345-012345678345');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (11, N'AKA001', N'Akaki Health Center', N'G', N'C', NULL, N'', 87, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'b4c5d6e7-1234-4456-9456-123456789456');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (12, N'ALE001', N'Alembank Health Center', N'G', N'C', NULL, N'', 434, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'c5d6e7f8-2345-4567-a567-234567890567');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (13, N'AMO001', N'Amoraw Memmorial Health Center', N'G', N'C', NULL, N'', 501, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'd6e7f809-3456-4678-b678-345678901678');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (14, N'ARA001', N'Arabsa Health Center', N'G', N'C', NULL, N'', 501, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'e7f8091a-4567-4789-c789-456789012789');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (15, N'BAS001', N'Bashawolid health center', N'G', N'C', NULL, N'', 166, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'f8091a2b-5678-4890-d890-567890123890');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (16, N'BEA001', N'Beata Health Center', N'G', N'C', NULL, N'', 166, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'091a2b3c-6789-4901-e901-678901234901');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (17, N'BOL001', N'Bole 17 Health Center', N'G', N'C', NULL, N'', 227, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'1a2b3c4d-7890-4a12-fa12-789012345a12');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (18, N'BOL002', N'Bole 17/20 Health Center', N'G', N'C', NULL, N'', 227, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'2b3c4d5e-8901-4b23-0b23-890123456b23');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (19, N'BUL001', N'Bulbula Health Center', N'G', N'C', NULL, N'', 227, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'3c4d5e6f-9012-4c34-1c34-901234567c34');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (20, N'CHE001', N'Chefe Health Center', N'G', N'C', NULL, N'', 738, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'4d5e6f70-0123-4d45-2d45-012345678d45');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (21, N'CHU001', N'Churcher Health Center', N'G', N'C', NULL, N'', 166, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'5e6f7081-1234-4e56-3e56-123456789e56');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (22, N'DAG001', N'Dagim Hidase Health Center', N'G', N'C', NULL, N'', 586, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'6f708192-2345-4f67-4f67-234567890f67');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (23, N'DIL001', N'Dil Fere Health Center', N'G', N'C', NULL, N'', 227, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'708192a3-3456-4078-5078-345678901078');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (24, N'EFO001', N'Efoyita Health Center', N'G', N'C', NULL, N'', 373, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'8192a3b4-4567-4189-6189-456789012189');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (25, N'ENT001', N'Entoto Fana Health Center', N'G', N'C', NULL, N'', 312, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'92a3b4c5-5678-4290-7290-567890123290');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (26, N'ENT002', N'Entoto No.1 Health Center', N'G', N'C', NULL, N'', 738, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'a3b4c5d6-6789-43a1-83a1-6789012343a1');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (27, N'ENT003', N'Entoto No.2 Health Center', N'G', N'C', NULL, N'', 738, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'b4c5d6e7-7890-44b2-94b2-7890123454b2');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (28, N'FEL001', N'Felege Mels Health center', N'G', N'C', NULL, N'', 2, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'c5d6e7f8-8901-45c3-a5c3-8901234565c3');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (29, N'FEL002', N'Felegehiwot Health Center', N'G', N'C', NULL, N'', 373, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'd6e7f809-9012-46d4-b6d4-9012345676d4');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (30, N'FER001', N'Ferensay Around Health Center', N'G', N'C', NULL, N'', 738, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'e7f8091a-0123-47e5-c7e5-0123456787e5');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (31, N'FER002', N'Feresmeda Health Center', N'G', N'C', NULL, N'', 373, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'f8091a2b-1234-48f6-d8f6-1234567898f6');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (32, N'GEL001', N'Gelan Gura Health center', N'G', N'C', NULL, N'', 87, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'091a2b3c-2345-4907-e907-234567890907');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (33, N'GEL002', N'Gelan Health Center', N'G', N'C', NULL, N'', 87, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'1a2b3c4d-3456-4a18-fa18-345678901a18');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (34, N'GEN001', N'General Jagema Kelo memorial health center', N'G', N'C', NULL, N'', 586, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'2b3c4d5e-4567-4b29-0b29-456789012b29');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (35, N'GER001', N'Gerji Health Center', N'G', N'C', NULL, N'', 227, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'3c4d5e6f-5678-4c3a-1c3a-567890123c3a');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (36, N'GIN001', N'Ginbot 20 Health center', N'G', N'C', NULL, N'', 2, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'4d5e6f70-6789-4d4b-2d4b-678901234d4b');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (37, N'GOR001', N'Goro Health Center', N'G', N'C', NULL, N'', 501, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'5e6f7081-7890-4e5c-3e5c-789012345e5c');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (38, N'GOT001', N'Goteramasalecha Health Center', N'G', N'C', NULL, N'', 373, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'6f708192-8901-4f6d-4f6d-890123456f6d');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (39, N'GUT001', N'Guto Meda Health Center', N'G', N'C', NULL, N'', 312, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'708192a3-9012-407e-507e-90123456707e');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (40, N'HID001', N'Hidase Fire Health Center', N'G', N'C', NULL, N'', 586, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'8192a3b4-0123-418f-618f-01234567818f');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (41, N'HID002', N'Hidasie Health Henter', N'G', N'C', NULL, N'', 312, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'92a3b4c5-1234-42a0-72a0-1234567892a0');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (42, N'HIW001', N'Hiwotamba Health Center', N'G', N'C', NULL, N'', 373, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'a3b4c5d6-2345-43b1-83b1-2345678903b1');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (43, N'JAN001', N'Janmeda Health Center', N'G', N'C', NULL, N'', 166, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'b4c5d6e7-3456-44c2-94c2-3456789014c2');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (44, N'KAL001', N'Kality Health Center', N'G', N'C', NULL, N'', 87, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'c5d6e7f8-4567-45d3-a5d3-4567890125d3');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (45, N'KEB001', N'Kebena Health Center', N'G', N'C', NULL, N'', 166, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'd6e7f809-5678-46e4-b6e4-5678901236e4');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (46, N'KER001', N'Keranyo  Health Center', N'G', N'C', NULL, N'', 434, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'e7f8091a-6789-47f5-c7f5-6789012347f5');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (47, N'KIR001', N'Kirkos Health Center', N'G', N'C', NULL, N'', 373, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'f8091a2b-7890-48g6-d8g6-7890123458g6');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (48, N'KOL001', N'Kolfe Health Center', N'G', N'C', NULL, N'', 2, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'091a2b3c-8901-49h7-e9h7-8901234569h7');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (49, N'KOR001', N'Korea Zemachoch Metasebiya Health Center', N'G', N'C', NULL, N'', 738, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'1a2b3c4d-9012-4a28-fa28-901234567a28');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (50, N'KOT001', N'Kotebe 02 Health Center', N'G', N'C', NULL, N'', 738, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'2b3c4d5e-0123-4b39-0b39-012345678b39');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (51, N'KUA001', N'Kuas Meda Health Center', N'G', N'C', NULL, N'', 2, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'3c4d5e6f-1234-4c4a-1c4a-123456789c4a');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (52, N'LID001', N'Lideta Health Center', N'G', N'C', NULL, N'', 586, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'4d5e6f70-2345-4d5b-2d5b-234567890d5b');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (53, N'LID002', N'Lideta Sub City Woreda 4 Health Center', N'G', N'C', NULL, N'', 586, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'5e6f7081-3456-4e6c-3e6c-345678901e6c');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (54, N'LOM001', N'Lomi Meda Health Center', N'G', N'C', NULL, N'', 2, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'6f708192-4567-4f7d-4f7d-456789012f7d');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (55, N'MAY001', N'Maychew Health Center', N'G', N'C', NULL, N'', 312, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'708192a3-5678-408e-508e-56789012308e');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (56, N'MER001', N'Meri Health Center', N'G', N'C', NULL, N'', 501, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'8192a3b4-6789-419f-619f-67890123419f');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (57, N'MES001', N'Mesholekiya Health Center', N'G', N'C', NULL, N'', 373, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'92a3b4c5-7890-42b0-72b0-7890123452b0');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (58, N'MIK001', N'MikililandHealth Center', N'G', N'C', NULL, N'', 2, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'a3b4c5d6-8901-43c1-83c1-8901234563c1');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (59, N'MIL001', N'Millinium Health center', N'G', N'C', NULL, N'', 2, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'b4c5d6e7-9012-44d2-94d2-9012345674d2');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (60, N'RAE001', N'Raey Health Center', N'G', N'C', NULL, N'', 501, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'c5d6e7f8-0123-45e3-a5e3-0123456785e3');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (61, N'RAS001', N'Ras Emeru Health Center', N'G', N'C', NULL, N'', 166, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'd6e7f809-1234-46f4-b6f4-1234567896f4');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (62, N'SAR001', N'Saris health Center', N'G', N'C', NULL, N'', 87, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'e7f8091a-2345-47g5-c7g5-2345678907g5');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (63, N'SEL001', N'Selam Frea Health Center', N'G', N'C', NULL, N'', 87, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'f8091a2b-3456-48h6-d8h6-3456789018h6');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (64, N'SEL002', N'Selam Health Center', N'G', N'C', NULL, N'', 312, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'091a2b3c-4567-49i7-e9i7-4567890129i7');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (65, N'SEM001', N'Semegne Kebed Health Center', N'G', N'C', NULL, N'', 166, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'1a2b3c4d-5678-4a38-fa38-567890123a38');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (66, N'SEM002', N'Semen Health Center', N'G', N'C', NULL, N'', 166, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'2b3c4d5e-6789-4b49-0b49-678901234b49');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (67, N'SER001', N'Sertie Health Center', N'G', N'C', NULL, N'', 87, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'3c4d5e6f-7890-4c5a-1c5a-789012345c5a');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (68, N'SHE001', N'Shegole Health Center', N'G', N'C', NULL, N'', 312, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'4d5e6f70-8901-4d6b-2d6b-890123456d6b');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (69, N'SHI001', N'Shiromeda Health Center', N'G', N'C', NULL, N'', 312, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'5e6f7081-9012-4e7c-3e7c-901234567e7c');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (70, N'SUM001', N'Sumit Health center', N'G', N'C', NULL, N'', 501, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'6f708192-0123-4f8d-4f8d-012345678f8d');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (71, N'TEK001', N'Teklahamanot Health Center', N'G', N'C', NULL, N'', 586, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'708192a3-1234-409e-509e-12345678909e');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (72, N'TIB001', N'Tibeb Bekechene Health Center', N'G', N'C', NULL, N'', 312, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'8192a3b4-2345-41af-61af-2345678901af');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (73, N'WRO001', N'W/ro Beletshachew Health Center', N'G', N'C', NULL, N'', 586, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'92a3b4c5-3456-42b0-72b0-3456789012b0');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (74, N'WER001', N'Werda12 Health center', N'G', N'C', NULL, N'', 738, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'a3b4c5d6-4567-43c1-83c1-4567890123c1');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (75, N'WER002', N'Wereda 07 Health Center', N'G', N'C', NULL, N'', 738, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'b4c5d6e7-5678-44d2-94d2-5678901234d2');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (76, N'WER003', N'Wereda 10 Health Center', N'G', N'C', NULL, N'', 738, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'c5d6e7f8-6789-45e3-a5e3-6789012345e3');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (77, N'WER004', N'wereda 6 Health center', N'G', N'C', NULL, N'', 647, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'd6e7f809-7890-46f4-b6f4-7890123456f4');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (78, N'WER005', N'weroda 10 Health Center', N'G', N'C', NULL, N'', 647, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'e7f8091a-8901-47g5-c7g5-8901234567g5');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (79, N'WER006', N'Weroda 11 Health Center', N'G', N'C', NULL, N'', 647, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'f8091a2b-9012-48h6-d8h6-9012345678h6');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (80, N'WER007', N'Weroda 12 Health Center', N'G', N'C', NULL, N'', 647, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'091a2b3c-0123-49i7-e9i7-0123456789i7');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (81, N'WER008', N'Weroda 2 Health Center', N'G', N'C', NULL, N'', 647, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'1a2b3c4d-1234-4a38-fa38-123456789a38');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (82, N'WOR001', N'Worda 05 Health Center', N'G', N'C', NULL, N'', 434, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'2b3c4d5e-2345-4b49-0b49-234567890b49');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (83, N'WOR002', N'Woreda 01 Health Center', N'G', N'C', NULL, N'', 647, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'3c4d5e6f-3456-4c5a-1c5a-345678901c5a');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (84, N'WOR003', N'Woreda 01Health Center', N'G', N'C', NULL, N'', 434, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'4d5e6f70-4567-4d6b-2d6b-456789012d6b');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (85, N'WOR004', N'Woreda 03 Health Center', N'G', N'C', NULL, N'', 434, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'5e6f7081-5678-4e7c-3e7c-567890123e7c');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (86, N'WOR005', N'Woreda 06 Health Center', N'G', N'C', NULL, N'', 434, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'6f708192-6789-4f8d-4f8d-678901234f8d');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (87, N'WOR006', N'Woreda 09 Health Center', N'G', N'C', NULL, N'', 434, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'708192a3-7890-409e-509e-78901234509e');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (88, N'WOR007', N'Woreda 10 Health Center', N'G', N'C', NULL, N'', 2, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'8192a3b4-8901-41af-61af-8901234561af');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (89, N'WOR008', N'Woreda 11 Philipos Health Center', N'G', N'C', NULL, N'', 2, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'92a3b4c5-9012-42b0-72b0-9012345672b0');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (90, N'WOR009', N'Woreda 14 Hedase Health Center', N'G', N'C', NULL, N'', 501, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'a3b4c5d6-0123-43c1-83c1-0123456783c1');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (91, N'WOR010', N'Woreda 2 Health Center', N'G', N'C', NULL, N'', 501, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'b4c5d6e7-1234-44d2-94d2-1234567894d2');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (92, N'WOR011', N'Woreda 3 Health Center', N'G', N'C', NULL, N'', 2, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'c5d6e7f8-2345-45e3-a5e3-2345678905e3');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (93, N'WOR012', N'Woreda 5 Health Center', N'G', N'C', NULL, N'', 647, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'd6e7f809-3456-46f4-b6f4-3456789016f4');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (94, N'WOR013', N'woreda 9 Health Center', N'G', N'C', NULL, N'', 647, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'e7f8091a-4567-47g5-c7g5-4567890127g5');
+INSERT INTO "tblHF" ("HfID", "HFCode", "HFName", "LegalForm", "HFLevel", "HFSublevel", "HFAddress", "LocationId", "Phone", "Fax", "eMail", "HFCareType", "PLServiceID", "PLItemID", "AccCode", "OffLine", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "HfUUID") VALUES (95, N'YEK001', N'Yeka Health Center', N'G', N'C', NULL, N'', 738, N'', N'', N'', N'O', 6, 5, N'', 0::boolean, CAST(N'2017-01-01T00:00:00.000' AS timestamptz), NULL, NULL, 2, N'f8091a2b-5678-48h6-d8h6-5678901238h6');
 
 -- tblBatchRun
 INSERT INTO "tblBatchRun" ("RunID", "LocationId", "RunDate", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "RunYear", "RunMonth") VALUES (1, NULL, CAST(N'2019-01-24T00:46:41.027' AS timestamptz), CAST(N'2019-01-24T00:46:41.027' AS timestamptz), NULL, NULL, 1, 2018, 1);
@@ -1499,8 +6722,8 @@ INSERT INTO "tblPhotos" ("PhotoID", "InsureeID", "CHFID", "PhotoFolder", "PhotoF
 
 
 -- tblInsuree
-INSERT INTO "tblInsuree" ("InsureeID", "FamilyID", "CHFID", "LastName", "OtherNames", "DOB", "Gender", "Marital", "IsHead", "passport", "Phone", "PhotoID", "PhotoDate", "CardIssued", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "Relationship", "Profession", "Education", "Email", "isOffline", "TypeOfId", "HFID", "CurrentAddress", "GeoLocation", "CurrentVillage", "InsureeUUID") VALUES (1, 1, N'070707070', N'Macintyre', N'Joseph', CAST(N'1950-07-12' AS Date), N'M', N'M', 1::boolean, N'', N'', 267, CAST(N'2018-03-27' AS Date), 0::boolean, CAST(N'2018-03-27T06:43:15.817' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, N'                                                                                                    ', 0::boolean, NULL, NULL, N'', N'0.0 0.0', 0, N'0539afeb-21a1-4b3f-9478-23e6f41b0024');
-INSERT INTO "tblInsuree" ("InsureeID", "FamilyID", "CHFID", "LastName", "OtherNames", "DOB", "Gender", "Marital", "IsHead", "passport", "Phone", "PhotoID", "PhotoDate", "CardIssued", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "Relationship", "Profession", "Education", "Email", "isOffline", "TypeOfId", "HFID", "CurrentAddress", "GeoLocation", "CurrentVillage", "InsureeUUID") VALUES (2, 1, N'070707081', N'Macintyre', N'Jane', CAST(N'1952-05-07' AS Date), N'F', N'M', 0::boolean, N'', N'', 268, CAST(N'2018-03-27' AS Date), 0::boolean, CAST(N'2018-03-27T06:44:02.833' AS timestamptz), NULL, NULL, 1, 8, NULL, NULL, N'', 0::boolean, NULL, NULL, N'', N'0.0 0.0', 0, N'7b00e6ec-e0f5-4d07-a8e0-ec00a4160e73');
+INSERT INTO "tblInsuree" ("InsureeID", "FamilyID", "CHFID", "LastName", "OtherNames", "DOB", "Gender", "Marital", "IsHead", "passport", "Phone", "PhotoID", "PhotoDate", "CardIssued", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "Relationship", "Profession", "Education", "Email", "isOffline", "TypeOfId", "HFID", "CurrentAddress", "GeoLocation", "CurrentVillage", "InsureeUUID") VALUES (1, 1, N'070707070', N'Abel', N'Seyfe', CAST(N'1950-07-12' AS Date), N'M', N'M', 1::boolean, N'', N'', 267, CAST(N'2018-03-27' AS Date), 0::boolean, CAST(N'2018-03-27T06:43:15.817' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, N'                                                                                                    ', 0::boolean, NULL, NULL, N'', N'0.0 0.0', 0, N'0539afeb-21a1-4b3f-9478-23e6f41b0024');
+INSERT INTO "tblInsuree" ("InsureeID", "FamilyID", "CHFID", "LastName", "OtherNames", "DOB", "Gender", "Marital", "IsHead", "passport", "Phone", "PhotoID", "PhotoDate", "CardIssued", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "Relationship", "Profession", "Education", "Email", "isOffline", "TypeOfId", "HFID", "CurrentAddress", "GeoLocation", "CurrentVillage", "InsureeUUID") VALUES (2, 1, N'070707081', N'Natan', N'Jane', CAST(N'1952-05-07' AS Date), N'F', N'M', 0::boolean, N'', N'', 268, CAST(N'2018-03-27' AS Date), 0::boolean, CAST(N'2018-03-27T06:44:02.833' AS timestamptz), NULL, NULL, 1, 8, NULL, NULL, N'', 0::boolean, NULL, NULL, N'', N'0.0 0.0', 0, N'7b00e6ec-e0f5-4d07-a8e0-ec00a4160e73');
 INSERT INTO "tblInsuree" ("InsureeID", "FamilyID", "CHFID", "LastName", "OtherNames", "DOB", "Gender", "Marital", "IsHead", "passport", "Phone", "PhotoID", "PhotoDate", "CardIssued", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "Relationship", "Profession", "Education", "Email", "isOffline", "TypeOfId", "HFID", "CurrentAddress", "GeoLocation", "CurrentVillage", "InsureeUUID") VALUES (3, 1, N'070707092', N'Macintyre', N'Adele', CAST(N'1974-06-11' AS Date), N'F', NULL, 0::boolean, N'', N'', 269, CAST(N'2018-03-27' AS Date), 0::boolean, CAST(N'2018-03-27T06:44:14.533' AS timestamptz), NULL, NULL, 1, 4, NULL, NULL, N'', 0::boolean, NULL, NULL, N'', N'0.0 0.0', 0, N'f13100e9-9ab3-47b8-8579-150beb56ffad');
 INSERT INTO "tblInsuree" ("InsureeID", "FamilyID", "CHFID", "LastName", "OtherNames", "DOB", "Gender", "Marital", "IsHead", "passport", "Phone", "PhotoID", "PhotoDate", "CardIssued", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "Relationship", "Profession", "Education", "Email", "isOffline", "TypeOfId", "HFID", "CurrentAddress", "GeoLocation", "CurrentVillage", "InsureeUUID") VALUES (4, 1, N'070707066', N'Macintyre', N'Abu', CAST(N'1973-11-21' AS Date), N'M', NULL, 0::boolean, N'', N'', 270, CAST(N'2018-03-27' AS Date), 0::boolean, CAST(N'2018-03-27T06:43:48.947' AS timestamptz), NULL, NULL, 1, 7, NULL, NULL, N'', 0::boolean, NULL, NULL, N'', N'0.0 0.0', 0, N'd8393487-c3aa-4d3a-b56f-82f9b3b47a46');
 INSERT INTO "tblInsuree" ("InsureeID", "FamilyID", "CHFID", "LastName", "OtherNames", "DOB", "Gender", "Marital", "IsHead", "passport", "Phone", "PhotoID", "PhotoDate", "CardIssued", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "Relationship", "Profession", "Education", "Email", "isOffline", "TypeOfId", "HFID", "CurrentAddress", "GeoLocation", "CurrentVillage", "InsureeUUID") VALUES (5, 1, N'070707055', N'Macintyre', N'Jet', CAST(N'2005-10-16' AS Date), N'F', NULL, 0::boolean, N'', N'', 271, CAST(N'2018-03-27' AS Date), 0::boolean, CAST(N'2018-03-27T06:43:32.393' AS timestamptz), NULL, NULL, 1, 7, NULL, NULL, N'', 0::boolean, NULL, NULL, N'', N'0.0 0.0', 0, N'4d908777-50ff-44c3-81f2-48f27517c798');
@@ -1688,53 +6911,53 @@ INSERT INTO "tblProduct" ("ProdID", "ProductCode", "ProductName", "LocationId", 
 INSERT INTO "tblProduct" ("ProdID", "ProductCode", "ProductName", "LocationId", "InsurancePeriod", "DateFrom", "DateTo", "ConversionProdID", "LumpSum", "MemberCount", "PremiumAdult", "PremiumChild", "DedInsuree", "DedOPInsuree", "DedIPInsuree", "MaxInsuree", "MaxOPInsuree", "MaxIPInsuree", "PeriodRelPrices", "PeriodRelPricesOP", "PeriodRelPricesIP", "AccCodePremiums", "AccCodeRemuneration", "DedTreatment", "DedOPTreatment", "DedIPTreatment", "MaxTreatment", "MaxOPTreatment", "MaxIPTreatment", "DedPolicy", "DedOPPolicy", "DedIPPolicy", "MaxPolicy", "MaxOPPolicy", "MaxIPPolicy", "GracePeriod", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "RegistrationLumpSum", "RegistrationFee", "GeneralAssemblyLumpSum", "GeneralAssemblyFee", "StartCycle1", "StartCycle2", "MaxNoConsultation", "MaxNoSurgery", "MaxNoDelivery", "MaxNoHospitalizaion", "MaxNoVisits", "MaxAmountConsultation", "MaxAmountSurgery", "MaxAmountDelivery", "MaxAmountHospitalization", "GracePeriodRenewal", "MaxInstallments", "WaitingPeriod", "Threshold", "RenewalDiscountPerc", "RenewalDiscountPeriod", "StartCycle3", "StartCycle4", "AdministrationPeriod", "MaxPolicyExtraMember", "MaxPolicyExtraMemberIP", "MaxPolicyExtraMemberOP", "MaxCeilingPolicy", "MaxCeilingPolicyIP", "MaxCeilingPolicyOP", "EnrolmentDiscountPerc", "EnrolmentDiscountPeriod", "MaxAmountAntenatal", "MaxNoAntenatal", "CeilingInterpretation", "Level1", "Sublevel1", "Level2", "Sublevel2", "Level3", "Sublevel3", "Level4", "Sublevel4", "ShareContribution", "WeightPopulation", "WeightNumberFamilies", "WeightInsuredPopulation", "WeightNumberInsuredFamilies", "WeightNumberVisits", "WeightAdjustedAmount", "ProdUUID") VALUES (4, N'BCUL0001', N'Basic Cover Ultha', 1, 12, CAST(N'2017-01-01T00:00:00' AS Date), CAST(N'2030-12-31T00:00:00' AS Date), 10, CAST(10000.00 AS Decimal(18, 2)), 6, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'', N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, CAST(N'2019-01-24T00:22:39.680' AS timestamptz), NULL, NULL, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'I', N'D', NULL, N'C', NULL, NULL, NULL, NULL, NULL, CAST(100.00 AS Decimal(5, 2)), CAST(0.00 AS Decimal(5, 2)), CAST(0.00 AS Decimal(5, 2)), CAST(100.00 AS Decimal(5, 2)), CAST(0.00 AS Decimal(5, 2)), CAST(0.00 AS Decimal(5, 2)), CAST(0.00 AS Decimal(5, 2)), N'9ad6e81d-ce42-43ba-aa2e-4ec3978352e8');
 
 -- tblOfficer
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (1, N'E00005', N'sri', N'sid', CAST(N'1978-05-02' AS Date), N'', 17, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2019-08-16T07:39:38.500' AS timestamptz), NULL, NULL, 1, N'abc@abc.com', 1::boolean, N'Near village B', 1::boolean::boolean, N'4da8cbbb-8bd6-4e49-b25d-a34a76d4ce99');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (2, N'EO1', N'sri', N'sid', CAST(N'1978-05-02' AS Date), N'+4915772731571', 19, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 1, 2, N'siddharth.srivastava@swisstph.ch', 1::boolean, N'Near village B', NULL::boolean::boolean, N'8fda11b4-a828-4f0f-83d6-9a66f45c9415');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (3, N'E00001', N'Roberts', N'Jeb', CAST(N'1980-01-15' AS Date), N'', 55, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2019-08-16T07:38:38.363' AS timestamptz), NULL, NULL, 1, N'', 0::boolean, N'', 1::boolean::boolean, N'671ef662-cd56-4740-8d2d-55cb4f451418');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (4, N'E01', N'Roberts', N'Jeb', CAST(N'1980-01-15' AS Date), N'', 55, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 3, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'05523b49-d44c-441d-8663-53d6c158e952');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (5, N'EO6', N'sri', N'sid', CAST(N'1978-05-02' AS Date), N'+4915772731571', 19, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 1, 2, N'siddharth.srivastava@swisstph.ch', 1::boolean, N'Near village B', NULL::boolean::boolean, N'90088d8b-2bb9-47ac-b52b-63df887aa9fb');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (6, N'E00002', N'Jack', N'Raga', CAST(N'1979-10-25' AS Date), N'', 55, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2019-08-16T07:38:56.350' AS timestamptz), NULL, NULL, 1, N'', 0::boolean, N'', 1::boolean::boolean, N'9c12ceb9-968e-4752-94d9-7420c7bd580f');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (7, N'E00003', N'Jono', N'Jombo', CAST(N'1969-06-01' AS Date), N'', 55, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2019-08-16T07:39:11.247' AS timestamptz), NULL, NULL, 1, N'', 0::boolean, N'', 1::boolean::boolean, N'ceab7e5e-6335-41ec-a454-8e1dc644170e');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (8, N'E00004', N'Zombie', N'Romby', CAST(N'1983-09-14' AS Date), N'', 55, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2019-08-16T07:39:24.340' AS timestamptz), NULL, NULL, 1, N'', 0::boolean, N'', 1::boolean::boolean, N'5cc08d91-ad85-4f82-a5fe-72bcec0b4dbe');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (9, N'E00006', N'Yabber', N'Uck', CAST(N'1974-08-30' AS Date), N'', 17, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2019-08-16T07:39:52.660' AS timestamptz), NULL, NULL, 1, N'', 0::boolean, N'', 1::boolean::boolean, N'2b38782c-e45e-4f20-b3c2-5d8eb1e188e5');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (10, N'E00005', N'Zombie', N'Romby', NULL, N'', 55, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 8, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'26ca2896-0a53-4c71-8f9d-c60ecd1769e6');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (11, N'E00006', N'sri', N'sid', CAST(N'1978-05-02' AS Date), N'+4915772731571', 19, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 1, 2, N'siddharth.srivastava@swisstph.ch', 1::boolean, N'Near village B', NULL::boolean::boolean, N'5b6a051f-4b28-4f67-9ef2-e9ba04d628f1');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (12, N'E00007', N'Yabber', N'Uck', CAST(N'1974-08-30' AS Date), N'', 20, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 9, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'8b3e742f-9ee5-4392-af7b-f9a578c80f8b');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (13, N'E00007', N'Johnson', N'James', CAST(N'1971-12-19' AS Date), N'', 17, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2019-08-16T07:40:05.113' AS timestamptz), NULL, NULL, 1, N'', 0::boolean, N'', 1::boolean::boolean, N'309fa983-1c0b-4023-8edb-9e5ca77cecae');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (14, N'E00007', N'Johnson', N'James', CAST(N'1971-12-19' AS Date), N'', 17, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 13, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'4f570397-f2ab-40f9-bc13-90e7c7db9032');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (15, N'E00008', N'Jones', N'Aby', CAST(N'1960-09-05' AS Date), N'', 17, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2019-08-16T07:40:17.773' AS timestamptz), NULL, NULL, 1, N'', 0::boolean, N'', 1::boolean::boolean, N'751b1edc-5cb5-4efb-bce7-00a75b8d1b7c');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (16, N'E00008', N'Jones', N'Aby', CAST(N'1960-09-05' AS Date), N'', 17, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 15, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'0d2b3582-bdc8-474f-8c04-60b3bc7ad30d');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (17, N'E00008', N'Jones', N'Aby', CAST(N'1960-09-05' AS Date), N'', 17, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 15, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'c7e037df-58a2-4e9d-931e-1eca55438ea8');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (18, N'E00004', N'Zombie', N'Romby', NULL, N'', 55, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 8, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'1bd5f951-6986-4b1a-80a3-098fc1997fe8');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (19, N'E00004', N'Zombie', N'Romby', NULL, N'', 55, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 8, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'86b0501f-9961-4cd8-8105-da0057fa63b4');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (20, N'E00005', N'sri', N'sid', CAST(N'1978-05-02' AS Date), N'+4915772731571', 19, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 1, 2, N'siddharth.srivastava@swisstph.ch', 1::boolean, N'Near village B', NULL::boolean::boolean, N'bb039f08-c30b-4e9c-b85f-302e25c29c46');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (21, N'E00006', N'Yabber', N'Uck', CAST(N'1974-08-30' AS Date), N'', 20, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 9, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'75b0ba0e-75c1-4121-9c7e-bdadfdef6bcc');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (22, N'E00007', N'Johnson', N'James', CAST(N'1971-12-19' AS Date), N'', 17, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 13, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'7298a786-1c68-4bf5-93e2-d3d04c8a81be');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (23, N'E00008', N'Jones', N'Aby', CAST(N'1960-09-05' AS Date), N'', 17, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 15, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'9e787e51-83c0-4c3d-acdf-26002c97f991');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (24, N'E00009', N'Labil', N'Bulbao', CAST(N'1990-07-17' AS Date), N'', 56, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2019-08-16T07:40:30.103' AS timestamptz), NULL, NULL, 1, N'', 0::boolean, N'', 1::boolean::boolean, N'6412776a-02f2-49dd-bd88-ae7c5a36bc2d');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (25, N'E00010', N'Kachalo', N'Alo', CAST(N'1963-08-18' AS Date), N'', 19, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2019-08-16T07:40:44.480' AS timestamptz), NULL, NULL, 1, N'', 0::boolean, N'', 1::boolean::boolean, N'2cda01d7-a1c9-4d7e-8077-4adf7d76cb37');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (26, N'E00011', N'Jones', N'Jack', CAST(N'1963-11-12' AS Date), N'', 20, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2019-08-16T07:40:56.623' AS timestamptz), NULL, NULL, 1, N'', 0::boolean, N'', 1::boolean::boolean, N'9fd72375-fa05-41eb-baba-dd543151cd1c');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (27, N'E00013', N'Lambda', N'Bilo', CAST(N'1980-10-01' AS Date), N'', 55, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2019-08-16T07:41:22.300' AS timestamptz), NULL, NULL, 1, N'', 0::boolean, N'', 1::boolean::boolean, N'462fde35-2cac-4315-a670-142a18f0c4eb');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (28, N'E00004', N'Zombie', N'Romby', NULL, N'', 55, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 8, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'cc2f7c1d-93ed-4feb-bdcd-7f22f28098d2');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (29, N'EO000013', N'Lambda', N'Bilo', CAST(N'1980-10-01' AS Date), N'', 55, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 27, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'9c8acb48-9578-4972-879e-4491dbcc59a4');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (30, N'E00012', N'Jony', N'Tanu', CAST(N'1983-07-30' AS Date), N'', 17, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2019-08-16T07:41:09.783' AS timestamptz), NULL, NULL, 1, N'', 0::boolean, N'', 1::boolean::boolean, N'242159ad-5a77-46c7-b9b1-b237a20bc353');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (31, N'E00014', N'Lastung', N'Jio', CAST(N'1969-06-22' AS Date), N'', 56, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2019-08-16T07:41:34.803' AS timestamptz), NULL, NULL, 1, N'', 0::boolean, N'', 1::boolean::boolean, N'9a9b6d9f-6c8b-444e-a443-cb29cfc9b6a7');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (32, N'E00005', N'sri', N'sid', CAST(N'1978-05-02' AS Date), N'+4915772731571', 17, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), CAST(N'2019-01-25T07:25:52.450' AS timestamptz), 1, 2, N'siddharth.srivastava@swisstph.ch', 1::boolean, N'Near village B', NULL::boolean::boolean, N'ea01d652-0db4-45cb-91f5-ae65873a702d');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (33, N'E00005', N'sri', N'sid', CAST(N'1978-05-02' AS Date), N'', 17, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2019-01-25T07:25:52.450' AS timestamptz), CAST(N'2019-08-12T07:07:42.170' AS timestamptz), 1, 1, N'siddharth.srivastava@swisstph.ch', 1::boolean, N'Near village B', NULL::boolean::boolean, N'3cc96f55-0c4c-41ce-8b84-ed375dec1c77');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (34, N'E00001', N'Roberts', N'Jeb', CAST(N'1980-01-15' AS Date), N'', 55, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), CAST(N'2019-08-16T07:38:38.363' AS timestamptz), 3, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'5b82dbc4-25e7-47e6-b752-9510eb5d3478');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (35, N'E00002', N'Jack', N'Raga', CAST(N'1979-10-25' AS Date), N'', 55, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), CAST(N'2019-08-16T07:38:56.350' AS timestamptz), 6, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'e262e746-cc7e-4c80-aa43-4b1fb2862ddc');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (36, N'E00003', N'Jono', N'Jombo', CAST(N'1969-06-01' AS Date), N'', 55, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), CAST(N'2019-08-16T07:39:11.247' AS timestamptz), 7, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'21b29ce8-d0b3-42c9-bd36-fa952e42cb20');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (37, N'E00004', N'Zombie', N'Romby', CAST(N'1983-09-14' AS Date), N'', 55, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), CAST(N'2019-08-16T07:39:24.340' AS timestamptz), 8, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'9d19ad12-8610-427d-81f4-f8f8d6d85445');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (38, N'E00005', N'sri', N'sid', CAST(N'1978-05-02' AS Date), N'', 17, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2019-08-12T07:07:42.170' AS timestamptz), CAST(N'2019-08-16T07:39:38.483' AS timestamptz), 1, 1, N'abc@abc.com', 1::boolean, N'Near village B', 0::boolean::boolean, N'3485bc60-41d4-4533-89d1-5a8be7fcf179');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (39, N'E00006', N'Yabber', N'Uck', CAST(N'1974-08-30' AS Date), N'', 17, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), CAST(N'2019-08-16T07:39:52.643' AS timestamptz), 9, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'c484e1c1-f9b7-4749-9303-09165bc923f5');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (40, N'E00007', N'Johnson', N'James', CAST(N'1971-12-19' AS Date), N'', 17, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), CAST(N'2019-08-16T07:40:05.113' AS timestamptz), 13, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'fb788725-e638-4969-af5b-a23eca0602c8');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (41, N'E00008', N'Jones', N'Aby', CAST(N'1960-09-05' AS Date), N'', 17, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), CAST(N'2019-08-16T07:40:17.773' AS timestamptz), 15, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'e75c2341-2d13-409c-8465-54286d6dc0b3');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (42, N'E00009', N'Labil', N'Bulbao', CAST(N'1990-07-17' AS Date), N'', 56, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), CAST(N'2019-08-16T07:40:30.103' AS timestamptz), 24, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'd0f48090-f872-4375-aa43-f51ae772c443');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (43, N'E00010', N'Kachalo', N'Alo', CAST(N'1963-08-18' AS Date), N'', 19, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), CAST(N'2019-08-16T07:40:44.480' AS timestamptz), 25, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'92e18919-0a19-4093-8548-b92237f57c4c');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (44, N'E00011', N'Jones', N'Jack', CAST(N'1963-11-12' AS Date), N'', 20, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), CAST(N'2019-08-16T07:40:56.623' AS timestamptz), 26, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'2e82137a-c319-4752-a6cd-f8bab8209d47');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (45, N'E00012', N'Jony', N'Tanu', CAST(N'1983-07-30' AS Date), N'', 17, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), CAST(N'2019-08-16T07:41:09.783' AS timestamptz), 30, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'df941a6a-b1dc-4a8a-a021-4f8e55ed9955');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (46, N'E00013', N'Lambda', N'Bilo', CAST(N'1980-10-01' AS Date), N'', 55, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), CAST(N'2019-08-16T07:41:22.300' AS timestamptz), 27, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'15e20f32-a1f9-4ab8-a8dc-1e79c5b7cf6d');
-INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (47, N'E00014', N'Lastung', N'Jio', CAST(N'1969-06-22' AS Date), N'', 56, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), CAST(N'2019-08-16T07:41:34.803' AS timestamptz), 31, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'b9d5c773-9f6e-4039-9629-8fc1dcd902ea');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (1, N'Bekele', N'Abebe', N'sid', CAST(N'1978-05-02' AS Date), N'', 17, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2019-08-16T07:39:38.500' AS timestamptz), NULL, NULL, 1, N'abc@abc.com', 1::boolean, N'Near village B', 1::boolean::boolean, N'4da8cbbb-8bd6-4e49-b25d-a34a76d4ce99');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (2, N'Tesfaye', N'Kebede', N'sid', CAST(N'1978-05-02' AS Date), N'+4915772731571', 19, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 1, 2, N'siddharth.srivastava@swisstph.ch', 1::boolean, N'Near village B', NULL::boolean::boolean, N'8fda11b4-a828-4f0f-83d6-9a66f45c9415');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (3, N'Alemu', N'Mulugeta', N'Jeb', CAST(N'1980-01-15' AS Date), N'', 55, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2019-08-16T07:38:38.363' AS timestamptz), NULL, NULL, 1, N'', 0::boolean, N'', 1::boolean::boolean, N'671ef662-cd56-4740-8d2d-55cb4f451418');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (4, N'Haile', N'Gebremariam', N'Jeb', CAST(N'1980-01-15' AS Date), N'', 55, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 3, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'05523b49-d44c-441d-8663-53d6c158e952');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (5, N'Tsegaye', N'Meron', N'sid', CAST(N'1978-05-02' AS Date), N'+4915772731571', 19, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 1, 2, N'siddharth.srivastava@swisstph.ch', 1::boolean, N'Near village B', NULL::boolean::boolean, N'90088d8b-2bb9-47ac-b52b-63df887aa9fb');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (6, N'Dawit', N'Kidane', N'Raga', CAST(N'1979-10-25' AS Date), N'', 55, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2019-08-16T07:38:56.350' AS timestamptz), NULL, NULL, 1, N'', 0::boolean, N'', 1::boolean::boolean, N'9c12ceb9-968e-4752-94d9-7420c7bd580f');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (7, N'Solomon', N'Mesfin', N'Jombo', CAST(N'1969-06-01' AS Date), N'', 55, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2019-08-16T07:39:11.247' AS timestamptz), NULL, NULL, 1, N'', 0::boolean, N'', 1::boolean::boolean, N'ceab7e5e-6335-41ec-a454-8e1dc644170e');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (8, N'Getachew', N'Fikru', N'Romby', CAST(N'1983-09-14' AS Date), N'', 55, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2019-08-16T07:39:24.340' AS timestamptz), NULL, NULL, 1, N'', 0::boolean, N'', 1::boolean::boolean, N'5cc08d91-ad85-4f82-a5fe-72bcec0b4dbe');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (9, N'Mekonnen', N'Ayele', N'Uck', CAST(N'1974-08-30' AS Date), N'', 17, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2019-08-16T07:39:52.660' AS timestamptz), NULL, NULL, 1, N'', 0::boolean, N'', 1::boolean::boolean, N'2b38782c-e45e-4f20-b3c2-5d8eb1e188e5');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (10, N'Yohannes', N'Negash', N'Romby', NULL, N'', 55, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 8, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'26ca2896-0a53-4c71-8f9d-c60ecd1769e6');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (11, N'Kassa', N'Birhanu', N'sid', CAST(N'1978-05-02' AS Date), N'+4915772731571', 19, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 1, 2, N'siddharth.srivastava@swisstph.ch', 1::boolean, N'Near village B', NULL::boolean::boolean, N'5b6a051f-4b28-4f67-9ef2-e9ba04d628f1');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (12, N'Demeke', N'Girma', N'Uck', CAST(N'1974-08-30' AS Date), N'', 20, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 9, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'8b3e742f-9ee5-4392-af7b-f9a578c80f8b');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (13, N'Fikadu', N'Tilahun', N'James', CAST(N'1971-12-19' AS Date), N'', 17, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2019-08-16T07:40:05.113' AS timestamptz), NULL, NULL, 1, N'', 0::boolean, N'', 1::boolean::boolean, N'309fa983-1c0b-4023-8edb-9e5ca77cecae');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (14, N'Samson', N'Yared', N'James', CAST(N'1971-12-19' AS Date), N'', 17, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 13, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'4f570397-f2ab-40f9-bc13-90e7c7db9032');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (15, N'Worku', N'Ashenafi', N'Aby', CAST(N'1960-09-05' AS Date), N'', 17, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2019-08-16T07:40:17.773' AS timestamptz), NULL, NULL, 1, N'', 0::boolean, N'', 1::boolean::boolean, N'751b1edc-5cb5-4efb-bce7-00a75b8d1b7c');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (16, N'Habtamu', N'Gizachew', N'Aby', CAST(N'1960-09-05' AS Date), N'', 17, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 15, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'0d2b3582-bdc8-474f-8c04-60b3bc7ad30d');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (17, N'Eshetu', N'Chala', N'Aby', CAST(N'1960-09-05' AS Date), N'', 17, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 15, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'c7e037df-58a2-4e9d-931e-1eca55438ea8');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (18, N'Sisay', N'Tesema', N'Romby', NULL, N'', 55, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 8, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'1bd5f951-6986-4b1a-80a3-098fc1997fe8');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (19, N'Abera', N'Endale', N'Romby', NULL, N'', 55, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 8, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'86b0501f-9961-4cd8-8105-da0057fa63b4');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (20, N'Melaku', N'Hailu', N'sid', CAST(N'1978-05-02' AS Date), N'+4915772731571', 19, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 1, 2, N'siddharth.srivastava@swisstph.ch', 1::boolean, N'Near village B', NULL::boolean::boolean, N'bb039f08-c30b-4e9c-b85f-302e25c29c46');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (21, N'Bekele', N'Abebe', N'Uck', CAST(N'1974-08-30' AS Date), N'', 20, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 9, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'75b0ba0e-75c1-4121-9c7e-bdadfdef6bcc');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (22, N'Tesfaye', N'Kebede', N'James', CAST(N'1971-12-19' AS Date), N'', 17, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 13, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'7298a786-1c68-4bf5-93e2-d3d04c8a81be');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (23, N'Alemu', N'Mulugeta', N'Aby', CAST(N'1960-09-05' AS Date), N'', 17, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 15, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'9e787e51-83c0-4c3d-acdf-26002c97f991');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (24, N'Haile', N'Gebremariam', N'Bulbao', CAST(N'1990-07-17' AS Date), N'', 56, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2019-08-16T07:40:30.103' AS timestamptz), NULL, NULL, 1, N'', 0::boolean, N'', 1::boolean::boolean, N'6412776a-02f2-49dd-bd88-ae7c5a36bc2d');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (25, N'Tsegaye', N'Meron', N'Alo', CAST(N'1963-08-18' AS Date), N'', 19, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2019-08-16T07:40:44.480' AS timestamptz), NULL, NULL, 1, N'', 0::boolean, N'', 1::boolean::boolean, N'2cda01d7-a1c9-4d7e-8077-4adf7d76cb37');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (26, N'Dawit', N'Kidane', N'Jack', CAST(N'1963-11-12' AS Date), N'', 20, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2019-08-16T07:40:56.623' AS timestamptz), NULL, NULL, 1, N'', 0::boolean, N'', 1::boolean::boolean, N'9fd72375-fa05-41eb-baba-dd543151cd1c');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (27, N'Solomon', N'Mesfin', N'Bilo', CAST(N'1980-10-01' AS Date), N'', 55, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2019-08-16T07:41:22.300' AS timestamptz), NULL, NULL, 1, N'', 0::boolean, N'', 1::boolean::boolean, N'462fde35-2cac-4315-a670-142a18f0c4eb');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (28, N'Getachew', N'Fikru', N'Romby', NULL, N'', 55, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 8, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'cc2f7c1d-93ed-4feb-bdcd-7f22f28098d2');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (29, N'Mekonnen', N'Ayele', N'Bilo', CAST(N'1980-10-01' AS Date), N'', 55, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2016-01-01T00:00:00.000' AS timestamptz), CAST(N'2016-12-31T00:00:00.000' AS timestamptz), 27, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'9c8acb48-9578-4972-879e-4491dbcc59a4');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (30, N'Yohannes', N'Negash', N'Tanu', CAST(N'1983-07-30' AS Date), N'', 17, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2019-08-16T07:41:09.783' AS timestamptz), NULL, NULL, 1, N'', 0::boolean, N'', 1::boolean::boolean, N'242159ad-5a77-46c7-b9b1-b237a20bc353');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (31, N'Kassa', N'Birhanu', N'Jio', CAST(N'1969-06-22' AS Date), N'', 56, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2019-08-16T07:41:34.803' AS timestamptz), NULL, NULL, 1, N'', 0::boolean, N'', 1::boolean::boolean, N'9a9b6d9f-6c8b-444e-a443-cb29cfc9b6a7');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (32, N'Demeke', N'Girma', N'sid', CAST(N'1978-05-02' AS Date), N'+4915772731571', 17, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), CAST(N'2019-01-25T07:25:52.450' AS timestamptz), 1, 2, N'siddharth.srivastava@swisstph.ch', 1::boolean, N'Near village B', NULL::boolean::boolean, N'ea01d652-0db4-45cb-91f5-ae65873a702d');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (33, N'Fikadu', N'Tilahun', N'sid', CAST(N'1978-05-02' AS Date), N'', 17, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2019-01-25T07:25:52.450' AS timestamptz), CAST(N'2019-08-12T07:07:42.170' AS timestamptz), 1, 1, N'siddharth.srivastava@swisstph.ch', 1::boolean, N'Near village B', NULL::boolean::boolean, N'3cc96f55-0c4c-41ce-8b84-ed375dec1c77');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (34, N'Samson', N'Yared', N'Jeb', CAST(N'1980-01-15' AS Date), N'', 55, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), CAST(N'2019-08-16T07:38:38.363' AS timestamptz), 3, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'5b82dbc4-25e7-47e6-b752-9510eb5d3478');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (35, N'Worku', N'Ashenafi', N'Raga', CAST(N'1979-10-25' AS Date), N'', 55, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), CAST(N'2019-08-16T07:38:56.350' AS timestamptz), 6, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'e262e746-cc7e-4c80-aa43-4b1fb2862ddc');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (36, N'Habtamu', N'Gizachew', N'Jombo', CAST(N'1969-06-01' AS Date), N'', 55, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), CAST(N'2019-08-16T07:39:11.247' AS timestamptz), 7, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'21b29ce8-d0b3-42c9-bd36-fa952e42cb20');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (37, N'Eshetu', N'Chala', N'Romby', CAST(N'1983-09-14' AS Date), N'', 55, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), CAST(N'2019-08-16T07:39:24.340' AS timestamptz), 8, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'9d19ad12-8610-427d-81f4-f8f8d6d85445');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (38, N'Sisay', N'Tesema', N'sid', CAST(N'1978-05-02' AS Date), N'', 17, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2019-08-12T07:07:42.170' AS timestamptz), CAST(N'2019-08-16T07:39:38.483' AS timestamptz), 1, 1, N'abc@abc.com', 1::boolean, N'Near village B', 0::boolean::boolean, N'3485bc60-41d4-4533-89d1-5a8be7fcf179');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (39, N'Abera', N'Endale', N'Uck', CAST(N'1974-08-30' AS Date), N'', 17, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), CAST(N'2019-08-16T07:39:52.643' AS timestamptz), 9, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'c484e1c1-f9b7-4749-9303-09165bc923f5');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (40, N'Melaku', N'Hailu', N'James', CAST(N'1971-12-19' AS Date), N'', 17, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), CAST(N'2019-08-16T07:40:05.113' AS timestamptz), 13, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'fb788725-e638-4969-af5b-a23eca0602c8');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (41, N'Bekele', N'Abebe', N'Aby', CAST(N'1960-09-05' AS Date), N'', 17, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), CAST(N'2019-08-16T07:40:17.773' AS timestamptz), 15, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'e75c2341-2d13-409c-8465-54286d6dc0b3');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (42, N'Tesfaye', N'Kebede', N'Bulbao', CAST(N'1990-07-17' AS Date), N'', 56, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), CAST(N'2019-08-16T07:40:30.103' AS timestamptz), 24, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'd0f48090-f872-4375-aa43-f51ae772c443');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (43, N'Alemu', N'Mulugeta', N'Alo', CAST(N'1963-08-18' AS Date), N'', 19, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), CAST(N'2019-08-16T07:40:44.480' AS timestamptz), 25, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'92e18919-0a19-4093-8548-b92237f57c4c');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (44, N'Haile', N'Gebremariam', N'Jack', CAST(N'1963-11-12' AS Date), N'', 20, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), CAST(N'2019-08-16T07:40:56.623' AS timestamptz), 26, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'2e82137a-c319-4752-a6cd-f8bab8209d47');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (45, N'Tsegaye', N'Meron', N'Tanu', CAST(N'1983-07-30' AS Date), N'', 17, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), CAST(N'2019-08-16T07:41:09.783' AS timestamptz), 30, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'df941a6a-b1dc-4a8a-a021-4f8e55ed9955');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (46, N'Dawit', N'Kidane', N'Bilo', CAST(N'1980-10-01' AS Date), N'', 55, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), CAST(N'2019-08-16T07:41:22.300' AS timestamptz), 27, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'15e20f32-a1f9-4ab8-a8dc-1e79c5b7cf6d');
+INSERT INTO "tblOfficer" ("OfficerID", "Code", "LastName", "OtherNames", "DOB", "Phone", "LocationId", "OfficerIDSubst", "WorksTo", "VEOCode", "VEOLastName", "VEOOtherNames", "VEODOB", "VEOPhone", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserID", "EmailId", "PhoneCommunication", "permanentaddress", "HasLogin", "OfficerUUID") VALUES (47, N'Solomon', N'Mesfin', N'Jio', CAST(N'1969-06-22' AS Date), N'', 56, NULL, NULL, N'', N'', N'', NULL, N'', CAST(N'2017-01-01T00:00:00.000' AS timestamptz), CAST(N'2019-08-16T07:41:34.803' AS timestamptz), 31, 2, N'', 0::boolean, N'', NULL::boolean::boolean, N'b9d5c773-9f6e-4039-9629-8fc1dcd902ea');
 
 
 
