@@ -3244,7 +3244,7 @@ VALUES ('816',  816,   'AA_Y_13_',   'Ketena 05',  811,
  "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", 
  "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
 VALUES ('817',  817,   'AA_AR',   'Arada',  1,   
- 'S',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ 'D',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
  NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
 INSERT INTO "tblLocations" 
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
