@@ -7643,3 +7643,23 @@ UPDATE "tblServices" SET "ServCategory" = 2, "ServName" = 'Vulvar biopsy',"ServP
 UPDATE "tblServices" SET "ServCategory" = 2, "ServName" = 'Wet mount, KOH',"ServPrice" = '0.1' WHERE "ServiceID" =  336;
 UPDATE "tblServices" SET "ServCategory" = 2, "ServName" = 'Sinus',"ServPrice" = '30.00' WHERE "ServiceID" =  337;
 UPDATE "tblServices" SET "ServCategory" = 2, "ServName" = 'wound dressing small to medium',"ServPrice" = '0.1' WHERE "ServiceID" =  338;
+
+
+
+
+INSERT INTO "core_ModuleConfiguration" 
+    ("id", "module", "layer", "version", "config", "is_exposed", "is_disabled_until") 
+VALUES 
+    (
+        '738cc479-b7e5-47be-b561-77cf2194c089',
+        'fe-insuree',
+        'fe',
+        1,
+        '
+        {
+			"renderLastNameFirst": false
+		}
+        ',
+        true,
+        NULL
+    );
